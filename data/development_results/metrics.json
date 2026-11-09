@@ -1,0 +1,64 @@
+{
+  "evaluation_status": "Exploratory on previously inspected validation examples",
+  "base_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+  "score_method": "Complete label plus EOS log likelihood",
+  "baseline_accuracy": 0.23931623931623933,
+  "tuned_accuracy": 0.7008547008547008,
+  "tuned_report": {
+    "Support general": {
+      "precision": 0.5106382978723404,
+      "recall": 0.8,
+      "f1-score": 0.6233766233766234,
+      "support": 30.0
+    },
+    "Fileservice": {
+      "precision": 0.9545454545454546,
+      "recall": 0.75,
+      "f1-score": 0.84,
+      "support": 28.0
+    },
+    "O365": {
+      "precision": 0.75,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7058823529411765,
+      "support": 18.0
+    },
+    "EOL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "Software": {
+      "precision": 0.75,
+      "recall": 0.5,
+      "f1-score": 0.6,
+      "support": 12.0
+    },
+    "Active Directory": {
+      "precision": 0.5,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.3076923076923077,
+      "support": 9.0
+    },
+    "Computer-Services": {
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1-score": 0.625,
+      "support": 8.0
+    },
+    "accuracy": 0.7008547008547008,
+    "macro avg": {
+      "precision": 0.7271691074882565,
+      "recall": 0.651984126984127,
+      "f1-score": 0.6717073262871583,
+      "support": 117.0
+    },
+    "weighted avg": {
+      "precision": 0.7354395013969482,
+      "recall": 0.7008547008547008,
+      "f1-score": 0.6999693318245356,
+      "support": 117.0
+    }
+  }
+}

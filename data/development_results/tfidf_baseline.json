@@ -1,0 +1,74 @@
+{
+  "status": "Fixed comparator on the original, previously inspected assignment split",
+  "train_count": 468,
+  "validation_count": 117,
+  "model": "Word TF-IDF unigrams/bigrams + logistic regression",
+  "parameters": {
+    "sublinear_tf": true,
+    "C": 1.0,
+    "max_iter": 2000,
+    "random_state": 42
+  },
+  "accuracy": 0.6923076923076923,
+  "report": {
+    "Support general": {
+      "precision": 0.5454545454545454,
+      "recall": 0.8,
+      "f1-score": 0.6486486486486487,
+      "support": 30.0
+    },
+    "Fileservice": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8727272727272727,
+      "support": 28.0
+    },
+    "O365": {
+      "precision": 0.47368421052631576,
+      "recall": 0.5,
+      "f1-score": 0.4864864864864865,
+      "support": 18.0
+    },
+    "EOL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "Software": {
+      "precision": 0.7142857142857143,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.5263157894736842,
+      "support": 12.0
+    },
+    "Active Directory": {
+      "precision": 1.0,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.36363636363636365,
+      "support": 9.0
+    },
+    "Computer-Services": {
+      "precision": 0.8333333333333334,
+      "recall": 0.625,
+      "f1-score": 0.7142857142857143,
+      "support": 8.0
+    },
+    "accuracy": 0.6923076923076923,
+    "macro avg": {
+      "precision": 0.7793780989269711,
+      "recall": 0.6315759637188209,
+      "f1-score": 0.6588714678940243,
+      "support": 117.0
+    },
+    "weighted avg": {
+      "precision": 0.7351874895734545,
+      "recall": 0.6923076923076923,
+      "f1-score": 0.6833793360109147,
+      "support": 117.0
+    }
+  },
+  "scikit_learn_version": "1.9.1",
+  "python_version": "3.13.2",
+  "backup_sha256": "19b99c7092b87829509ee57f1f97669374a22128ad5c2857644187255919fdc4",
+  "no_validation_based_hyperparameter_search": true
+}

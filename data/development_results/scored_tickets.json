@@ -1,0 +1,4097 @@
+[
+  {
+    "text": "Hi, could you please set me up with access to LVS? I need it for my work but I'm not able to get in at the moment. Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.3289355391778864,
+      "Fileservice": 0.31818741267141826,
+      "O365": 0.07887619503112639,
+      "EOL": 0.0009417844229522042,
+      "Software": 0.14814625876900195,
+      "Active Directory": 0.026362780527517015,
+      "Computer-Services": 0.09855002940009774
+    },
+    "log_scores": {
+      "Support general": -9.291285514831543,
+      "Fileservice": -9.324506759643555,
+      "O365": -10.719267845153809,
+      "EOL": -15.147126197814941,
+      "Software": -10.088947296142578,
+      "Active Directory": -11.815194129943848,
+      "Computer-Services": -10.496582984924316
+    },
+    "latency_ms": 520.4826539998066,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.36241465646277493,
+      "Fileservice": 0.21290817164006332,
+      "O365": 0.0402058989410254,
+      "EOL": 0.0038625074890382173,
+      "Software": 0.004192448323192222,
+      "Active Directory": 0.03112939165987596,
+      "Computer-Services": 0.34528692548402995
+    },
+    "base_latency_ms": 302.9520790000788
+  },
+  {
+    "text": "Hi there, could you please remove a user's access from a specific file share? They no longer need it and we'd like to get that taken care of.",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.15484363465418363,
+      "Fileservice": 0.7960765181429564,
+      "O365": 0.0038755806637140386,
+      "EOL": 9.670281213479184e-05,
+      "Software": 0.015986702868728643,
+      "Active Directory": 0.011356883723857063,
+      "Computer-Services": 0.017763977134425478
+    },
+    "log_scores": {
+      "Support general": -10.034704208374023,
+      "Fileservice": -8.397424697875977,
+      "O365": -13.722424507141113,
+      "EOL": -17.413232803344727,
+      "Software": -12.305362701416016,
+      "Active Directory": -12.647295951843262,
+      "Computer-Services": -12.199947357177734
+    },
+    "latency_ms": 493.33323199971346,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.3742161199499241,
+      "Fileservice": 0.2830899083413961,
+      "O365": 0.005149472461312033,
+      "EOL": 0.0011731673912327735,
+      "Software": 0.001220422376540313,
+      "Active Directory": 0.004358513108638229,
+      "Computer-Services": 0.3307923963709564
+    },
+    "base_latency_ms": 282.9844980001326
+  },
+  {
+    "text": "Hey, I'm trying to duplicate my screen but I can't get it to work \u2014 could someone help me set it up?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.8457587906263418,
+      "Fileservice": 0.028965621884166712,
+      "O365": 0.007905005182296589,
+      "EOL": 3.460363974041715e-05,
+      "Software": 0.0593115199470721,
+      "Active Directory": 0.00875462553647902,
+      "Computer-Services": 0.04926983318390336
+    },
+    "log_scores": {
+      "Support general": -8.351537704467773,
+      "Fileservice": -11.725662231445312,
+      "O365": -13.024275779724121,
+      "EOL": -18.455568313598633,
+      "Software": -11.008968353271484,
+      "Active Directory": -12.922189712524414,
+      "Computer-Services": -11.194459915161133
+    },
+    "latency_ms": 505.559926999922,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.38042656705637623,
+      "Fileservice": 0.3052664909069267,
+      "O365": 0.02695713555731121,
+      "EOL": 0.002829374550192166,
+      "Software": 0.002966465799560698,
+      "Active Directory": 0.024459974851371948,
+      "Computer-Services": 0.25709399127826105
+    },
+    "base_latency_ms": 279.90992200011533
+  },
+  {
+    "text": "Hi, we received an NTT alert \u2014 it looks like there's a ping monitoring alert for [SERVER] related to cpe0013940 ([LOCATION]_ManuelOcampo) at [COMPANY] SE. Can someone investigate what's going on with [LOCATION] Monitor [LOCATION]_ManuelOcampo?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7590094966690034,
+      "Fileservice": 0.03569658897050651,
+      "O365": 0.056889675130161244,
+      "EOL": 0.008844082134269867,
+      "Software": 0.032916144654098554,
+      "Active Directory": 0.04858524429792111,
+      "Computer-Services": 0.0580587681440394
+    },
+    "log_scores": {
+      "Support general": -8.460033416748047,
+      "Fileservice": -11.516992568969727,
+      "O365": -11.050933837890625,
+      "EOL": -12.912299156188965,
+      "Software": -11.598084449768066,
+      "Active Directory": -11.208727836608887,
+      "Computer-Services": -11.03059196472168
+    },
+    "latency_ms": 505.4090180001367,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2532712061484334,
+      "Fileservice": 0.17982377708397923,
+      "O365": 0.006344803155127534,
+      "EOL": 0.0006641637401353163,
+      "Software": 0.0004959397820387864,
+      "Active Directory": 0.00989190187371213,
+      "Computer-Services": 0.5495082082165736
+    },
+    "base_latency_ms": 279.86182799986636
+  },
+  {
+    "text": "Hi, I'm running into some issues with the Teams and Skype integration and wanted to check if someone could look into it. For example, if I'm online in Teams but a colleague is only showing as online in Skype (not Teams), I can't reach them by chat or call at all \u2014 is that expected behavior, or is something misconfigured? Thanks, [NAME] \u2014 [PHONE] / [PHONE] | [EMAIL]",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.04815727153039669,
+      "Fileservice": 0.0007515845473670566,
+      "O365": 0.9170970026355579,
+      "EOL": 0.0004867648936122485,
+      "Software": 0.010832580973493202,
+      "Active Directory": 0.022427762552632995,
+      "Computer-Services": 0.00024703286693980505
+    },
+    "log_scores": {
+      "Support general": -11.34407901763916,
+      "Fileservice": -15.504122734069824,
+      "O365": -8.397337913513184,
+      "EOL": -15.938525199890137,
+      "Software": -12.835992813110352,
+      "Active Directory": -12.108251571655273,
+      "Computer-Services": -16.616785049438477
+    },
+    "latency_ms": 491.10341899995547,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.2922411997796484,
+      "Fileservice": 0.37132958003134053,
+      "O365": 0.06802614455335936,
+      "EOL": 0.00165196913575458,
+      "Software": 0.006584506944297822,
+      "Active Directory": 0.036886755016502196,
+      "Computer-Services": 0.2232798445390971
+    },
+    "base_latency_ms": 301.4299989999927
+  },
+  {
+    "text": "Hi, I'm following up on a ticket that was reopened \u2014 this is regarding the Light User external account request for [NAME], original ticket [TICKET ID]. Could you take another look when you get a chance?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7289148118343366,
+      "Fileservice": 0.03716463804154812,
+      "O365": 0.14389434824561992,
+      "EOL": 0.005298579824417472,
+      "Software": 0.0468788198382814,
+      "Active Directory": 0.034807226893531766,
+      "Computer-Services": 0.003041575322264767
+    },
+    "log_scores": {
+      "Support general": -8.5104341506958,
+      "Fileservice": -11.48663330078125,
+      "O365": -10.132911682128906,
+      "EOL": -13.434552192687988,
+      "Software": -11.254425048828125,
+      "Active Directory": -11.552165985107422,
+      "Computer-Services": -13.989615440368652
+    },
+    "latency_ms": 614.0379100002065,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.5413295792771511,
+      "Fileservice": 0.17124316108812954,
+      "O365": 0.01005864631084968,
+      "EOL": 0.002724071571707753,
+      "Software": 0.0006078561475352393,
+      "Active Directory": 0.004738182328272406,
+      "Computer-Services": 0.2692985032763543
+    },
+    "base_latency_ms": 311.2476539999989
+  },
+  {
+    "text": "Outlook has stopped working for me and I can't get into my email at all. Can someone help me get it sorted out?",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.012217792637101982,
+      "Fileservice": 0.00040962606999468936,
+      "O365": 0.9681749411421035,
+      "EOL": 0.0002412144899299691,
+      "Software": 0.004652309952966877,
+      "Active Directory": 0.014287575362364307,
+      "Computer-Services": 1.654034553877172e-05
+    },
+    "log_scores": {
+      "Support general": -12.593985557556152,
+      "Fileservice": -15.989389419555664,
+      "O365": -8.221466064453125,
+      "EOL": -16.51894760131836,
+      "Software": -13.559514999389648,
+      "Active Directory": -12.437488555908203,
+      "Computer-Services": -19.19883155822754
+    },
+    "latency_ms": 683.4084410002106,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.38535309362858483,
+      "Fileservice": 0.3913681452124636,
+      "O365": 0.030712436247373926,
+      "EOL": 0.0017922325281261474,
+      "Software": 0.0036560495541983883,
+      "Active Directory": 0.02001754297412222,
+      "Computer-Services": 0.1671004998551308
+    },
+    "base_latency_ms": 374.4415639998806
+  },
+  {
+    "text": "Hi, we need help setting up the [COMPANY] calendar on a personal/private notebook. The person responsible for this is [NAME] \u2014 please reach out to them directly if you need any additional information.",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.24456600723603372,
+      "Fileservice": 0.014642157570132727,
+      "O365": 0.6629000454278952,
+      "EOL": 0.0018661807499320859,
+      "Software": 0.014822810096533271,
+      "Active Directory": 0.05303718476301931,
+      "Computer-Services": 0.00816561415645371
+    },
+    "log_scores": {
+      "Support general": -9.600006103515625,
+      "Fileservice": -12.415586471557617,
+      "O365": -8.602867126464844,
+      "EOL": -14.475597381591797,
+      "Software": -12.403324127197266,
+      "Active Directory": -11.128498077392578,
+      "Computer-Services": -12.99955940246582
+    },
+    "latency_ms": 622.0961789999819,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.32577761718273746,
+      "Fileservice": 0.3230300687862516,
+      "O365": 0.002603098318646691,
+      "EOL": 0.0009753225359909398,
+      "Software": 0.0003255873464979618,
+      "Active Directory": 0.004484473091395434,
+      "Computer-Services": 0.34280383273848
+    },
+    "base_latency_ms": 404.4609729999138
+  },
+  {
+    "text": "Hey, I just got a new computer and need help getting it set up. Can someone assist?",
+    "truth": "Active Directory",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.0898154921677065,
+      "Fileservice": 0.0007465376409328359,
+      "O365": 1.6171458960930203e-05,
+      "EOL": 4.197282076563313e-07,
+      "Software": 0.0051394116918858255,
+      "Active Directory": 0.0018766540295928552,
+      "Computer-Services": 0.9024053132827135
+    },
+    "log_scores": {
+      "Support general": -10.599227905273438,
+      "Fileservice": -15.389294624328613,
+      "O365": -19.221492767333984,
+      "EOL": -22.872888565063477,
+      "Software": -13.460046768188477,
+      "Active Directory": -14.46749496459961,
+      "Computer-Services": -8.291921615600586
+    },
+    "latency_ms": 706.8443130001469,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.47955609229318885,
+      "Fileservice": 0.06787561815250083,
+      "O365": 0.007513629466196533,
+      "EOL": 0.0002926387799769206,
+      "Software": 0.0008472032651264896,
+      "Active Directory": 0.0038590634927372952,
+      "Computer-Services": 0.44005575455027307
+    },
+    "base_latency_ms": 295.4397240000617
+  },
+  {
+    "text": "Hello, I need a light external user account set up for someone outside the company \u2014 just email and basic access is all they need. Please let me know once it's ready!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7965324186820143,
+      "Fileservice": 0.07052314355166403,
+      "O365": 0.048406237404649936,
+      "EOL": 0.0008520151371780568,
+      "Software": 0.027256516372989942,
+      "Active Directory": 0.046963176832417367,
+      "Computer-Services": 0.009466492019086375
+    },
+    "log_scores": {
+      "Support general": -8.424426078796387,
+      "Fileservice": -10.848752975463867,
+      "O365": -11.225065231323242,
+      "EOL": -15.26484489440918,
+      "Software": -11.79940128326416,
+      "Active Directory": -11.255330085754395,
+      "Computer-Services": -12.856935501098633
+    },
+    "latency_ms": 496.7153849997885,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.37269556715025043,
+      "Fileservice": 0.3190239788973308,
+      "O365": 0.011586983520623581,
+      "EOL": 0.005436202528859861,
+      "Software": 0.00043833741618218086,
+      "Active Directory": 0.006708666993777672,
+      "Computer-Services": 0.2841102634929755
+    },
+    "base_latency_ms": 278.99705300023925
+  },
+  {
+    "text": "Hi team, we have an employee who is leaving and we need to get their offboarding taken care of \u2014 that means deleting their Windows and email accounts, revoking access to all systems, and arranging for their hardware to be returned. Please let me know what you need from me to move this forward.",
+    "truth": "Active Directory",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.6229378668036454,
+      "Fileservice": 0.011725106030719357,
+      "O365": 0.02344521431492483,
+      "EOL": 0.05079741400819921,
+      "Software": 0.023050053780778425,
+      "Active Directory": 0.24673045355567186,
+      "Computer-Services": 0.021313891506060913
+    },
+    "log_scores": {
+      "Support general": -8.65895938873291,
+      "Fileservice": -12.631673812866211,
+      "O365": -11.938739776611328,
+      "EOL": -11.165560722351074,
+      "Software": -11.955738067626953,
+      "Active Directory": -9.58510971069336,
+      "Computer-Services": -12.03404712677002
+    },
+    "latency_ms": 493.41159000005064,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.3567981547994631,
+      "Fileservice": 0.1615806619767073,
+      "O365": 0.004497126404435373,
+      "EOL": 0.0017967904972416176,
+      "Software": 0.00011169891677411001,
+      "Active Directory": 0.003832184299831806,
+      "Computer-Services": 0.47138338310554656
+    },
+    "base_latency_ms": 277.4723709999307
+  },
+  {
+    "text": "Could you help decommission [SERVER]? It needs to be removed from Nexthink, any IP reservations should be checked and cleaned up, and the network team will need to be notified to drop the firewall rules.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.021239807729450215,
+      "Fileservice": 0.00016866447848042012,
+      "O365": 0.0015410353895150492,
+      "EOL": 0.966613554847453,
+      "Software": 0.0037616803281603902,
+      "Active Directory": 0.004681138580464635,
+      "Computer-Services": 0.0019941186464761933
+    },
+    "log_scores": {
+      "Support general": -12.054944038391113,
+      "Fileservice": -16.89066505432129,
+      "O365": -14.678366661071777,
+      "EOL": -8.237022399902344,
+      "Software": -13.785955429077148,
+      "Active Directory": -13.567279815673828,
+      "Computer-Services": -14.420619010925293
+    },
+    "latency_ms": 492.4664320001284,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.24078093894260386,
+      "Fileservice": 0.10970038021610347,
+      "O365": 0.025210858016194923,
+      "EOL": 0.0012358776709722424,
+      "Software": 0.0005445628083197548,
+      "Active Directory": 0.0141612009886907,
+      "Computer-Services": 0.608366181357115
+    },
+    "base_latency_ms": 277.20311799976116
+  },
+  {
+    "text": "Hi team, we'd like to request a new folder on the J: drive called '[LOCATION] - Apportionments'. For editing permissions, we'd need the following people to have editor access: [NAME] ([EMAIL]), [NAME] ([EMAIL]), [NAME] ([EMAIL]), and [NAME] ([EMAIL]). For viewing permissions: [NAME] ([EMAIL]), [NAME] ([EMAIL]), and [NAME] ([EMAIL]). Could you also check which of these people don't currently have access to the J: drive and grant them access as needed? Thank you so much in advance \u2014 [NAME]",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.09325697119037468,
+      "Fileservice": 0.8944011668924992,
+      "O365": 0.00378358394968597,
+      "EOL": 4.018606758414697e-05,
+      "Software": 0.0029687241739157193,
+      "Active Directory": 0.00343181363568763,
+      "Computer-Services": 0.0021175540902526008
+    },
+    "log_scores": {
+      "Support general": -10.578651428222656,
+      "Fileservice": -8.317855834960938,
+      "O365": -13.78333854675293,
+      "EOL": -18.328245162963867,
+      "Software": -14.025877952575684,
+      "Active Directory": -13.880921363830566,
+      "Computer-Services": -14.363748550415039
+    },
+    "latency_ms": 492.3851109997486,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.39084085094317106,
+      "Fileservice": 0.3297575180089829,
+      "O365": 0.015641238738060434,
+      "EOL": 0.0003226230123799474,
+      "Software": 0.0006890051628333566,
+      "Active Directory": 0.0008761125665461164,
+      "Computer-Services": 0.2618726515680262
+    },
+    "base_latency_ms": 307.5664930001949
+  },
+  {
+    "text": "We're taking [SERVER] offline for good. Could you handle removing it from Nexthink, sorting out any IP reservations, and coordinating with the network team on the firewall rules?",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.04237041300711678,
+      "Fileservice": 0.0008672603036793586,
+      "O365": 0.006846289977242517,
+      "EOL": 0.9044475338980092,
+      "Software": 0.01777817421419315,
+      "Active Directory": 0.01280584683105313,
+      "Computer-Services": 0.014884481768705785
+    },
+    "log_scores": {
+      "Support general": -11.345529556274414,
+      "Fileservice": -15.234395980834961,
+      "O365": -13.168272972106934,
+      "EOL": -8.284655570983887,
+      "Software": -12.214008331298828,
+      "Active Directory": -12.542078018188477,
+      "Computer-Services": -12.391660690307617
+    },
+    "latency_ms": 498.8409369998408,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.17517957268059514,
+      "Fileservice": 0.11963127812400286,
+      "O365": 0.0443692767429861,
+      "EOL": 0.002354501441546469,
+      "Software": 0.0011868229487937837,
+      "Active Directory": 0.016316163760379802,
+      "Computer-Services": 0.6409623843016958
+    },
+    "base_latency_ms": 294.8119349998706
+  },
+  {
+    "text": "Hey, I need some help with my system configuration. Could someone reach out to assist me with getting things set up properly?",
+    "truth": "Software",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.8959729550189703,
+      "Fileservice": 0.00332151139142485,
+      "O365": 0.0003641537800496929,
+      "EOL": 5.160256881846534e-06,
+      "Software": 0.03184640937916528,
+      "Active Directory": 0.014580084475634957,
+      "Computer-Services": 0.053909725697872966
+    },
+    "log_scores": {
+      "Support general": -8.292773246765137,
+      "Fileservice": -13.890263557434082,
+      "O365": -16.100862503051758,
+      "EOL": -20.357452392578125,
+      "Software": -11.629758834838867,
+      "Active Directory": -12.411026954650879,
+      "Computer-Services": -11.103372573852539
+    },
+    "latency_ms": 491.0924860000705,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.5467852107364728,
+      "Fileservice": 0.18266639639156598,
+      "O365": 0.008512191323789123,
+      "EOL": 0.0006989244811053136,
+      "Software": 0.0008727920407217224,
+      "Active Directory": 0.010763168633101528,
+      "Computer-Services": 0.24970131639324347
+    },
+    "base_latency_ms": 282.84477999977753
+  },
+  {
+    "text": "Hi, I need read and write access to the J:/LTR folder on the shared drive. Could someone sort that out for me? Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.025619414145982566,
+      "Fileservice": 0.9666411986628921,
+      "O365": 0.0012946595639960323,
+      "EOL": 1.5453709365808118e-05,
+      "Software": 0.003008503374081665,
+      "Active Directory": 0.001646853473257817,
+      "Computer-Services": 0.0017739170704240245
+    },
+    "log_scores": {
+      "Support general": -11.839617729187012,
+      "Fileservice": -8.20914077758789,
+      "O365": -14.82472038269043,
+      "EOL": -19.25287437438965,
+      "Software": -13.981525421142578,
+      "Active Directory": -14.584101676940918,
+      "Computer-Services": -14.509778022766113
+    },
+    "latency_ms": 512.5088730001153,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.24712232047269783,
+      "Fileservice": 0.4262095806471762,
+      "O365": 0.04062607537195573,
+      "EOL": 0.0013523646398599643,
+      "Software": 0.0022847471376327396,
+      "Active Directory": 0.011305600798498135,
+      "Computer-Services": 0.2710993109321795
+    },
+    "base_latency_ms": 283.8711819999844
+  },
+  {
+    "text": "Hi there, could you please set up read/write access for me on J:/[COMPANY]/? I'll need access to all the subfolders in there as well, thanks.",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.023642495040884042,
+      "Fileservice": 0.9682524963465503,
+      "O365": 0.0013499258010758381,
+      "EOL": 1.9663681290970086e-05,
+      "Software": 0.004216650045292618,
+      "Active Directory": 0.001103130456598702,
+      "Computer-Services": 0.001415638628307637
+    },
+    "log_scores": {
+      "Support general": -11.917875289916992,
+      "Fileservice": -8.205428123474121,
+      "O365": -14.780871391296387,
+      "EOL": -19.009902954101562,
+      "Software": -13.64188003540039,
+      "Active Directory": -14.982769012451172,
+      "Computer-Services": -14.7333402633667
+    },
+    "latency_ms": 516.3387990000956,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.17753423471653343,
+      "Fileservice": 0.26823184968164215,
+      "O365": 0.02959123958593055,
+      "EOL": 0.0015309910139188483,
+      "Software": 0.0018142862936481278,
+      "Active Directory": 0.01406992635445041,
+      "Computer-Services": 0.5072274723538764
+    },
+    "base_latency_ms": 293.72059499974057
+  },
+  {
+    "text": "Hey, could you handle the decommission of [SERVER] from Nexthink? That includes removing the system, reviewing any IP reservations, and coordinating with the network team to get the firewall rules removed.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.025934878715140594,
+      "Fileservice": 0.00025717422404901555,
+      "O365": 0.0016515447986676106,
+      "EOL": 0.9574990888933353,
+      "Software": 0.005194628803165665,
+      "Active Directory": 0.007350892601753715,
+      "Computer-Services": 0.0021117919638881733
+    },
+    "log_scores": {
+      "Support general": -11.85220718383789,
+      "Fileservice": -16.465797424316406,
+      "O365": -14.606084823608398,
+      "EOL": -8.243471145629883,
+      "Software": -13.46017074584961,
+      "Active Directory": -13.112974166870117,
+      "Computer-Services": -14.360259056091309
+    },
+    "latency_ms": 515.5881260002388,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.38896943644628795,
+      "Fileservice": 0.11408937586040066,
+      "O365": 0.02455023766735606,
+      "EOL": 0.0007103026661815145,
+      "Software": 0.0006893306129318039,
+      "Active Directory": 0.007754363481795923,
+      "Computer-Services": 0.4632369532650461
+    },
+    "base_latency_ms": 282.95012499984296
+  },
+  {
+    "text": "Hi, [NAME] is having two issues \u2014 Outlook isn't working at all and there's also no internet connection on their machine. Can someone come by to help as soon as possible?",
+    "truth": "O365",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.4320202610018777,
+      "Fileservice": 0.024371265057553132,
+      "O365": 0.39425238638954485,
+      "EOL": 0.002031394887139241,
+      "Software": 0.08179400839812165,
+      "Active Directory": 0.054549727031099435,
+      "Computer-Services": 0.010980957234664093
+    },
+    "log_scores": {
+      "Support general": -9.037778854370117,
+      "Fileservice": -11.912846565246582,
+      "O365": -9.129260063171387,
+      "EOL": -14.397528648376465,
+      "Software": -10.702047348022461,
+      "Active Directory": -11.107138633728027,
+      "Computer-Services": -12.710088729858398
+    },
+    "latency_ms": 482.7808659997572,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.38452648531490424,
+      "Fileservice": 0.22487573885593304,
+      "O365": 0.00741513013917279,
+      "EOL": 0.0008641541862127962,
+      "Software": 0.00016243790827822726,
+      "Active Directory": 0.00936138172483876,
+      "Computer-Services": 0.37279467187066007
+    },
+    "base_latency_ms": 290.6396179996591
+  },
+  {
+    "text": "We need to decommission [SERVER] from Nexthink \u2014 please remove the system, check whether there are any IP reservations tied to it, and ping the network team to clean up the firewall rules.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.014935980972873937,
+      "Fileservice": 0.00011797508934439341,
+      "O365": 0.0006634520383335559,
+      "EOL": 0.9782363994316506,
+      "Software": 0.00203158476746241,
+      "Active Directory": 0.003233195880004227,
+      "Computer-Services": 0.0007814118203309416
+    },
+    "log_scores": {
+      "Support general": -12.396799087524414,
+      "Fileservice": -17.23785400390625,
+      "O365": -15.510870933532715,
+      "EOL": -8.214820861816406,
+      "Software": -14.391756057739258,
+      "Active Directory": -13.927101135253906,
+      "Computer-Services": -15.347225189208984
+    },
+    "latency_ms": 487.3177909998958,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2269916630006748,
+      "Fileservice": 0.2029685634749545,
+      "O365": 0.019280696644237285,
+      "EOL": 0.00217257090413785,
+      "Software": 0.0010968196222090427,
+      "Active Directory": 0.015495696225991106,
+      "Computer-Services": 0.5319939901277955
+    },
+    "base_latency_ms": 283.5049270001946
+  },
+  {
+    "text": "I'm having some issues with the label printer \u2014 it doesn't seem to be working properly. Could someone come take a look at it?",
+    "truth": "Computer-Services",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5111419227434425,
+      "Fileservice": 0.07295600525722966,
+      "O365": 0.009721837491188899,
+      "EOL": 7.515355421701e-05,
+      "Software": 0.019132473726312976,
+      "Active Directory": 0.0462954897109285,
+      "Computer-Services": 0.3406771175166804
+    },
+    "log_scores": {
+      "Support general": -8.85020637512207,
+      "Fileservice": -10.7969970703125,
+      "O365": -12.812479019165039,
+      "EOL": -17.67507553100586,
+      "Software": -12.135466575622559,
+      "Active Directory": -11.251809120178223,
+      "Computer-Services": -9.255918502807617
+    },
+    "latency_ms": 585.1936889998797,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.20278471912687684,
+      "Fileservice": 0.2539757426189686,
+      "O365": 0.007393438159872881,
+      "EOL": 0.0004902679499467696,
+      "Software": 0.00013272648041831044,
+      "Active Directory": 0.013155088154606713,
+      "Computer-Services": 0.5220680175093099
+    },
+    "base_latency_ms": 368.71739700018225
+  },
+  {
+    "text": "Hi, whenever I try to open a PDF file it keeps opening in WordPad instead of a PDF reader, and I can't read it properly at all. Can someone help me fix this so my PDFs open correctly?",
+    "truth": "Software",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.38407130730309325,
+      "Fileservice": 0.2993390465100817,
+      "O365": 0.07028788108385042,
+      "EOL": 0.0006481882966209047,
+      "Software": 0.23536768181661083,
+      "Active Directory": 0.008010712500526547,
+      "Computer-Services": 0.0022751824892163746
+    },
+    "log_scores": {
+      "Support general": -9.143391609191895,
+      "Fileservice": -9.392642974853516,
+      "O365": -10.841620445251465,
+      "EOL": -15.527793884277344,
+      "Software": -9.633070945739746,
+      "Active Directory": -13.013440132141113,
+      "Computer-Services": -14.272159576416016
+    },
+    "latency_ms": 659.0431790000366,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.4327847330840126,
+      "Fileservice": 0.3195981821362899,
+      "O365": 0.008895269778104318,
+      "EOL": 0.0027060926404042945,
+      "Software": 0.012130803938334538,
+      "Active Directory": 0.02386908271894257,
+      "Computer-Services": 0.20001583570391188
+    },
+    "base_latency_ms": 350.76936699988437
+  },
+  {
+    "text": "Hi team, we need to decommission [SERVER] \u2014 can you go ahead and remove it from Nexthink, check whether there are any IP reservations to clean up, and let the network team know to pull the firewall rules?",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.025905019261212595,
+      "Fileservice": 0.0006016345804868848,
+      "O365": 0.0019037484826804135,
+      "EOL": 0.9558760348385287,
+      "Software": 0.0037594418389409186,
+      "Active Directory": 0.009179665093390223,
+      "Computer-Services": 0.0027744559047603373
+    },
+    "log_scores": {
+      "Support general": -11.858376502990723,
+      "Fileservice": -15.620918273925781,
+      "O365": -14.468988418579102,
+      "EOL": -8.250185012817383,
+      "Software": -13.788542747497559,
+      "Active Directory": -12.895822525024414,
+      "Computer-Services": -14.092358589172363
+    },
+    "latency_ms": 698.8412589998916,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.22576104102116143,
+      "Fileservice": 0.19290891063113788,
+      "O365": 0.04495481961967601,
+      "EOL": 0.004064675246983001,
+      "Software": 0.0011689730856739868,
+      "Active Directory": 0.019661756976250305,
+      "Computer-Services": 0.5114798234191174
+    },
+    "base_latency_ms": 353.26349299975845
+  },
+  {
+    "text": "Hi there, could you help me get a new user account set up? Please let me know if you need any additional details from me. Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7035218313687259,
+      "Fileservice": 0.04021831772536264,
+      "O365": 0.0401628560611574,
+      "EOL": 0.0001888184460089386,
+      "Software": 0.0801394347784823,
+      "Active Directory": 0.1321519122705279,
+      "Computer-Services": 0.0036168293497348667
+    },
+    "log_scores": {
+      "Support general": -8.531789779663086,
+      "Fileservice": -11.393566131591797,
+      "O365": -11.394946098327637,
+      "EOL": -16.754858016967773,
+      "Software": -10.704120635986328,
+      "Active Directory": -10.203936576843262,
+      "Computer-Services": -13.802290916442871
+    },
+    "latency_ms": 503.7981469999977,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.42465585907852804,
+      "Fileservice": 0.3298309331022224,
+      "O365": 0.01754732597543593,
+      "EOL": 0.0007935382036761335,
+      "Software": 0.0004010150420722236,
+      "Active Directory": 0.004404929344091538,
+      "Computer-Services": 0.22236639925397383
+    },
+    "base_latency_ms": 283.0109219999031
+  },
+  {
+    "text": "Hi! I keep getting prompted to log in to OneDrive when I try to save changes to a file \u2014 it doesn't happen every single time, but it's pretty frequent. I thought I wouldn't need to keep signing in while I'm on my work computer connected to the network. Any help would be appreciated, thanks!",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.015949413318380463,
+      "Fileservice": 0.015194078392553007,
+      "O365": 0.9521823246299955,
+      "EOL": 0.0002936762137995942,
+      "Software": 0.0024890259572944856,
+      "Active Directory": 0.01382566085151201,
+      "Computer-Services": 6.582063646480185e-05
+    },
+    "log_scores": {
+      "Support general": -12.369342803955078,
+      "Fileservice": -12.417859077453613,
+      "O365": -8.280008316040039,
+      "EOL": -16.364042282104492,
+      "Software": -14.226873397827148,
+      "Active Directory": -12.512238502502441,
+      "Computer-Services": -17.859586715698242
+    },
+    "latency_ms": 507.90734499969403,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.2592301263280085,
+      "Fileservice": 0.3663206183041278,
+      "O365": 0.024207453529162953,
+      "EOL": 0.0009602058060639682,
+      "Software": 0.0008798563455844781,
+      "Active Directory": 0.035308877302875075,
+      "Computer-Services": 0.3130928623841772
+    },
+    "base_latency_ms": 286.9743119999839
+  },
+  {
+    "text": "This was flagged by [COMPANY] [LOCATION] \u2014 there's a vulnerable [LOCATION] on [SERVER] that needs to be looked into.",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.6960723857529078,
+      "Fileservice": 0.01795552877585453,
+      "O365": 0.04861873709029742,
+      "EOL": 0.03274246444491058,
+      "Software": 0.10742713005753328,
+      "Active Directory": 0.06438375252231572,
+      "Computer-Services": 0.03280000135618072
+    },
+    "log_scores": {
+      "Support general": -8.547414779663086,
+      "Fileservice": -12.204970359802246,
+      "O365": -11.20885944366455,
+      "EOL": -11.604195594787598,
+      "Software": -10.416055679321289,
+      "Active Directory": -10.928007125854492,
+      "Computer-Services": -11.602439880371094
+    },
+    "latency_ms": 495.95901500015316,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2354483222291173,
+      "Fileservice": 0.30559780601087033,
+      "O365": 0.010489482979525426,
+      "EOL": 0.0006322740651209352,
+      "Software": 0.0008185434284300228,
+      "Active Directory": 0.02097941616361206,
+      "Computer-Services": 0.42603415512332404
+    },
+    "base_latency_ms": 290.93253900009586
+  },
+  {
+    "text": "Hi, could you please create a Basic User account for [USERNAME]? Thanks in advance.",
+    "truth": "Support general",
+    "prediction": "Active Directory",
+    "scores": {
+      "Support general": 0.3485075622628157,
+      "Fileservice": 0.13647947466211477,
+      "O365": 0.06845604224978442,
+      "EOL": 0.0015878300109293806,
+      "Software": 0.08171079672794558,
+      "Active Directory": 0.3562502877679973,
+      "Computer-Services": 0.0070080063184129035
+    },
+    "log_scores": {
+      "Support general": -9.240766525268555,
+      "Fileservice": -10.178252220153809,
+      "O365": -10.868234634399414,
+      "EOL": -14.632058143615723,
+      "Software": -10.691240310668945,
+      "Active Directory": -9.218792915344238,
+      "Computer-Services": -13.14737319946289
+    },
+    "latency_ms": 500.2092839999932,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.4429305756734213,
+      "Fileservice": 0.18255629611129284,
+      "O365": 0.03365140463982174,
+      "EOL": 0.0029491947561547556,
+      "Software": 0.007457745767660494,
+      "Active Directory": 0.014934628698851427,
+      "Computer-Services": 0.31552015435279734
+    },
+    "base_latency_ms": 295.8171649997894
+  },
+  {
+    "text": "Hi, could you please set up a new account for me? I just started and need to get access sorted out. Thanks!",
+    "truth": "Active Directory",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5355388934007673,
+      "Fileservice": 0.06391100088416593,
+      "O365": 0.17839374537182226,
+      "EOL": 0.0009821256081634386,
+      "Software": 0.06872728132626733,
+      "Active Directory": 0.1474902153123602,
+      "Computer-Services": 0.004956738096453522
+    },
+    "log_scores": {
+      "Support general": -8.807426452636719,
+      "Fileservice": -10.933208465576172,
+      "O365": -9.906706809997559,
+      "EOL": -15.108736038208008,
+      "Software": -10.860553741455078,
+      "Active Directory": -10.096938133239746,
+      "Computer-Services": -13.489952087402344
+    },
+    "latency_ms": 500.86537700008193,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.31335211519228223,
+      "Fileservice": 0.32690316345948284,
+      "O365": 0.021252963458446794,
+      "EOL": 0.00288354305294637,
+      "Software": 0.006468079193499786,
+      "Active Directory": 0.020825800284018398,
+      "Computer-Services": 0.3083143353593236
+    },
+    "base_latency_ms": 283.223813999939
+  },
+  {
+    "text": "Hello, could you set up a Light external user account with email and basic system access? It's for someone who works outside our organization. Thanks in advance!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5228465211440613,
+      "Fileservice": 0.11732725632876788,
+      "O365": 0.15589415728157818,
+      "EOL": 0.002642926333795012,
+      "Software": 0.062209195660582535,
+      "Active Directory": 0.10709401960900596,
+      "Computer-Services": 0.03198592364220908
+    },
+    "log_scores": {
+      "Support general": -8.842985153198242,
+      "Fileservice": -10.337306022644043,
+      "O365": -10.053095817565918,
+      "EOL": -14.130386352539062,
+      "Software": -10.971770286560059,
+      "Active Directory": -10.428565979003906,
+      "Computer-Services": -11.636977195739746
+    },
+    "latency_ms": 510.7582449995789,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2727146562461286,
+      "Fileservice": 0.26390120620110313,
+      "O365": 0.03089927331602973,
+      "EOL": 0.003646688030581143,
+      "Software": 0.0030050724630299856,
+      "Active Directory": 0.019190955541560823,
+      "Computer-Services": 0.4066421482015666
+    },
+    "base_latency_ms": 296.3789530003851
+  },
+  {
+    "text": "Hi there, we have a new user who needs an account set up. They'll need a Windows login, an Exchange email, Skype, and access to the standard shared drives. Could you get that created for them?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.626652796604138,
+      "Fileservice": 0.057336857783447576,
+      "O365": 0.036740619054214774,
+      "EOL": 0.00045884576440488383,
+      "Software": 0.042924978809897735,
+      "Active Directory": 0.22194671925561707,
+      "Computer-Services": 0.013939182728280018
+    },
+    "log_scores": {
+      "Support general": -8.658340454101562,
+      "Fileservice": -11.049789428710938,
+      "O365": -11.494850158691406,
+      "EOL": -15.877774238586426,
+      "Software": -11.339279174804688,
+      "Active Directory": -9.696295738220215,
+      "Computer-Services": -12.464029312133789
+    },
+    "latency_ms": 514.01776900002,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2941628130367435,
+      "Fileservice": 0.2923851225005475,
+      "O365": 0.009338627938933733,
+      "EOL": 0.002340147296822781,
+      "Software": 0.0008246432038994937,
+      "Active Directory": 0.0016472939873362774,
+      "Computer-Services": 0.39930135203571676
+    },
+    "base_latency_ms": 284.5431250002548
+  },
+  {
+    "text": "Hello, could you please set up full access on the J:/[SERVER] share for [NAME]-Weiss? She needs to be able to read and write to that folder. Thank you!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.02759597349567778,
+      "Fileservice": 0.9608166041658381,
+      "O365": 0.00278997449325334,
+      "EOL": 4.335065567839588e-05,
+      "Software": 0.005030452763328316,
+      "Active Directory": 0.0015388436117322582,
+      "Computer-Services": 0.002184800814491856
+    },
+    "log_scores": {
+      "Support general": -11.77656078338623,
+      "Fileservice": -8.226447105407715,
+      "O365": -14.068198204040527,
+      "EOL": -18.232664108276367,
+      "Software": -13.478720664978027,
+      "Active Directory": -14.663199424743652,
+      "Computer-Services": -14.312705993652344
+    },
+    "latency_ms": 508.37816800003566,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.21887498448214066,
+      "Fileservice": 0.3396240952548974,
+      "O365": 0.03180498025137845,
+      "EOL": 0.0016979252314759895,
+      "Software": 0.0018274264042253043,
+      "Active Directory": 0.008379811618664848,
+      "Computer-Services": 0.3977907767572173
+    },
+    "base_latency_ms": 301.16400699989754
+  },
+  {
+    "text": "I'm having a weird issue \u2014 when I'm connected through VPN, I can't access my R: drive the normal way. The only way I can get to it is by typing in the IP address directly. Is there a fix for this?",
+    "truth": "Fileservice",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.3480785814642264,
+      "Fileservice": 0.30235275795683103,
+      "O365": 0.05251332918002337,
+      "EOL": 0.005855986460397826,
+      "Software": 0.054130442243487994,
+      "Active Directory": 0.06780031671846304,
+      "Computer-Services": 0.16926858597657038
+    },
+    "log_scores": {
+      "Support general": -9.254128456115723,
+      "Fileservice": -9.394962310791016,
+      "O365": -11.145489692687988,
+      "EOL": -13.339092254638672,
+      "Software": -11.11515998840332,
+      "Active Directory": -10.889989852905273,
+      "Computer-Services": -9.975069999694824
+    },
+    "latency_ms": 498.90542499997537,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2999047464773087,
+      "Fileservice": 0.2810962324586654,
+      "O365": 0.041622860344489226,
+      "EOL": 0.0032481751975681743,
+      "Software": 0.0016484200751426118,
+      "Active Directory": 0.01713521031863804,
+      "Computer-Services": 0.3553443551281878
+    },
+    "base_latency_ms": 296.50385000013557
+  },
+  {
+    "text": "Hi! The [LOCATION] already has a PDS1000 helium gun listed in the equipment subfolder in Outlook called 'Genie Gun,' and we need a second PDS1000 added to that same folder listed as 'Genie Gun #2.' Could you get that added for us? Thanks so much!",
+    "truth": "O365",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.3481043262014268,
+      "Fileservice": 0.4793547278174433,
+      "O365": 0.04161670601141927,
+      "EOL": 0.0016113988186551385,
+      "Software": 0.07156624760614115,
+      "Active Directory": 0.017884755102020856,
+      "Computer-Services": 0.03986183844289334
+    },
+    "log_scores": {
+      "Support general": -9.247702598571777,
+      "Fileservice": -8.927763938903809,
+      "O365": -11.371703147888184,
+      "EOL": -14.623102188110352,
+      "Software": -10.829581260681152,
+      "Active Directory": -12.216256141662598,
+      "Computer-Services": -11.414785385131836
+    },
+    "latency_ms": 476.04827099985414,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.23996735645539363,
+      "Fileservice": 0.2706194382122604,
+      "O365": 0.012400942671381846,
+      "EOL": 0.0005916231838264348,
+      "Software": 0.0003084400590612871,
+      "Active Directory": 0.006976495138628993,
+      "Computer-Services": 0.46913570427944745
+    },
+    "base_latency_ms": 291.4122669999415
+  },
+  {
+    "text": "Could you grant me read/write access to J:/CE-STA/ please? Also, if that folder doesn't exist yet, could you create it? Thanks in advance!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.032590547837514396,
+      "Fileservice": 0.9503404308817693,
+      "O365": 0.00366854568697035,
+      "EOL": 6.094167322564088e-05,
+      "Software": 0.0071279233559900235,
+      "Active Directory": 0.0022808994581072547,
+      "Computer-Services": 0.003930711106422968
+    },
+    "log_scores": {
+      "Support general": -11.60499382019043,
+      "Fileservice": -8.232195854187012,
+      "O365": -13.789220809936523,
+      "EOL": -17.88685417175293,
+      "Software": -13.124996185302734,
+      "Active Directory": -14.264446258544922,
+      "Computer-Services": -13.720195770263672
+    },
+    "latency_ms": 505.03071299999647,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2106032532895438,
+      "Fileservice": 0.2973870498310056,
+      "O365": 0.02050233519154963,
+      "EOL": 0.0024118646579779977,
+      "Software": 0.0030766307052597086,
+      "Active Directory": 0.019740421460013126,
+      "Computer-Services": 0.44627844486465007
+    },
+    "base_latency_ms": 284.90279800007556
+  },
+  {
+    "text": "Hi, I need a program installed on my computer so I can access the Itau account. Could someone help get that set up for me?",
+    "truth": "Software",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.12271114271907402,
+      "Fileservice": 0.08400123850723673,
+      "O365": 0.005303004567555201,
+      "EOL": 0.00013847843670400045,
+      "Software": 0.7611925706518596,
+      "Active Directory": 0.0074274802424381375,
+      "Computer-Services": 0.019226084875132245
+    },
+    "log_scores": {
+      "Support general": -10.289517402648926,
+      "Fileservice": -10.668519020080566,
+      "O365": -13.431077003479004,
+      "EOL": -17.076391220092773,
+      "Software": -8.46446418762207,
+      "Active Directory": -13.09416389465332,
+      "Computer-Services": -12.143082618713379
+    },
+    "latency_ms": 507.2944449998431,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.20728149742541735,
+      "Fileservice": 0.32702826916504657,
+      "O365": 0.04613832656918593,
+      "EOL": 0.0024609206030205126,
+      "Software": 0.009342850856375587,
+      "Active Directory": 0.025688909018061527,
+      "Computer-Services": 0.3820592263628925
+    },
+    "base_latency_ms": 343.791059999603
+  },
+  {
+    "text": "Hello, I also need read/write access to J:/\u00d6FZFOX/MOM-OSR please \u2014 could you set that up for me so I can view and edit files in that folder? Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.014162513576017756,
+      "Fileservice": 0.9767629812456539,
+      "O365": 0.003628379004800743,
+      "EOL": 5.120046121617833e-05,
+      "Software": 0.0034758570623273904,
+      "Active Directory": 0.001263433951106446,
+      "Computer-Services": 0.0006556346988776371
+    },
+    "log_scores": {
+      "Support general": -12.446457862854004,
+      "Fileservice": -8.212812423706055,
+      "O365": -13.808270454406738,
+      "EOL": -18.069063186645508,
+      "Software": -13.851215362548828,
+      "Active Directory": -14.8632230758667,
+      "Computer-Services": -15.519207954406738
+    },
+    "latency_ms": 649.4460540002365,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.22168993480333107,
+      "Fileservice": 0.4024509253859722,
+      "O365": 0.061736450479790074,
+      "EOL": 0.005397805634277641,
+      "Software": 0.008697284611154914,
+      "Active Directory": 0.03374661636684713,
+      "Computer-Services": 0.2662809827186269
+    },
+    "base_latency_ms": 351.7163050000818
+  },
+  {
+    "text": "Hi there, could you create a light external account for someone we're bringing on temporarily? They'll just need email and basic system access. Thanks so much!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.4331419119896363,
+      "Fileservice": 0.21744896872444525,
+      "O365": 0.22549892694300486,
+      "EOL": 0.003836542537574559,
+      "Software": 0.04280791078112742,
+      "Active Directory": 0.07139065715695568,
+      "Computer-Services": 0.0058750818672558425
+    },
+    "log_scores": {
+      "Support general": -9.01489543914795,
+      "Fileservice": -9.703996658325195,
+      "O365": -9.667645454406738,
+      "EOL": -13.741389274597168,
+      "Software": -11.329237937927246,
+      "Active Directory": -10.817793846130371,
+      "Computer-Services": -13.315240859985352
+    },
+    "latency_ms": 646.6952460000357,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.25192794038020105,
+      "Fileservice": 0.35111449151005125,
+      "O365": 0.034573507915264194,
+      "EOL": 0.004279185853823366,
+      "Software": 0.002186765989745177,
+      "Active Directory": 0.01434502616424858,
+      "Computer-Services": 0.3415730821866664
+    },
+    "base_latency_ms": 373.10600499995417
+  },
+  {
+    "text": "Hello [NAME], could you please set up the following users for [URL] emails the same way [NAME] was configured \u2014 so emails are delivered to the portal and the user gets a notification through Flow? I've attached a reference email. Let me know if you have any questions!",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.22435264421781748,
+      "Fileservice": 0.018719862452964222,
+      "O365": 0.6678809926034575,
+      "EOL": 0.0022391807193108187,
+      "Software": 0.022659353174991414,
+      "Active Directory": 0.06281851611234508,
+      "Computer-Services": 0.001329450719113596
+    },
+    "log_scores": {
+      "Support general": -9.68857192993164,
+      "Fileservice": -12.172205924987793,
+      "O365": -8.597681045532227,
+      "EOL": -14.29568099975586,
+      "Software": -11.981218338012695,
+      "Active Directory": -10.961541175842285,
+      "Computer-Services": -14.817025184631348
+    },
+    "latency_ms": 621.8697029999021,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.3545834308080913,
+      "Fileservice": 0.23069179465759607,
+      "O365": 0.01865709045126661,
+      "EOL": 0.0043231327702080696,
+      "Software": 0.0010923213562541373,
+      "Active Directory": 0.0027079182800196023,
+      "Computer-Services": 0.3879443116765642
+    },
+    "base_latency_ms": 282.280111000091
+  },
+  {
+    "text": "Hey, could you please create a new Windows user account for someone starting soon? They'll need Exchange email, Skype, and standard file share access set up. Appreciate it!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5658780857265279,
+      "Fileservice": 0.09815534912902045,
+      "O365": 0.028454828144545957,
+      "EOL": 0.0005503364631045918,
+      "Software": 0.1425903663860791,
+      "Active Directory": 0.11414683411117604,
+      "Computer-Services": 0.05022420003954601
+    },
+    "log_scores": {
+      "Support general": -8.760965347290039,
+      "Fileservice": -10.512792587280273,
+      "O365": -11.751026153564453,
+      "EOL": -15.696569442749023,
+      "Software": -10.139368057250977,
+      "Active Directory": -10.361858367919922,
+      "Computer-Services": -11.182847023010254
+    },
+    "latency_ms": 493.04718599978514,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.22993662654506036,
+      "Fileservice": 0.32399708795462373,
+      "O365": 0.04183138347194338,
+      "EOL": 0.005784868762153346,
+      "Software": 0.0014838533839447298,
+      "Active Directory": 0.006209230150952837,
+      "Computer-Services": 0.3907569497313216
+    },
+    "base_latency_ms": 293.9491160000216
+  },
+  {
+    "text": "I'm having an issue opening attachments in my email and it keeps showing an error. I've attached a screenshot so you can see exactly what's happening \u2014 hopefully that helps!",
+    "truth": "O365",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.4450817188522477,
+      "Fileservice": 0.06234465337250656,
+      "O365": 0.4205826955119319,
+      "EOL": 0.003542417816937855,
+      "Software": 0.045089522455922064,
+      "Active Directory": 0.021909986937383597,
+      "Computer-Services": 0.0014490050530703844
+    },
+    "log_scores": {
+      "Support general": -8.99626350402832,
+      "Fileservice": -10.961843490600586,
+      "O365": -9.05288028717041,
+      "EOL": -13.8297119140625,
+      "Software": -11.285871505737305,
+      "Active Directory": -12.00757884979248,
+      "Computer-Services": -14.723644256591797
+    },
+    "latency_ms": 498.3148930000425,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.37492466872723734,
+      "Fileservice": 0.30270846991628997,
+      "O365": 0.006557761444309399,
+      "EOL": 0.002100268438696643,
+      "Software": 0.000374824709180102,
+      "Active Directory": 0.026551109680352923,
+      "Computer-Services": 0.2867828970839336
+    },
+    "base_latency_ms": 295.18051700006254
+  },
+  {
+    "text": "I'm working from home today and can't get an internet connection through my ethernet cable. Wifi seems fine but the wired connection just isn't working at all.",
+    "truth": "Support general",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.11303184363031377,
+      "Fileservice": 0.04086654488356305,
+      "O365": 0.0038640354550204584,
+      "EOL": 0.0002103518977311716,
+      "Software": 0.02237406313059345,
+      "Active Directory": 0.0070616341680532855,
+      "Computer-Services": 0.8125915268347247
+    },
+    "log_scores": {
+      "Support general": -10.356719017028809,
+      "Fileservice": -11.374076843261719,
+      "O365": -13.73267650604248,
+      "EOL": -16.643362045288086,
+      "Software": -11.976486206054688,
+      "Active Directory": -13.129712104797363,
+      "Computer-Services": -8.384160041809082
+    },
+    "latency_ms": 504.80323000010685,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2537200267611657,
+      "Fileservice": 0.19121716027217195,
+      "O365": 0.017449474921870003,
+      "EOL": 0.004465772458603158,
+      "Software": 0.0011393308008671456,
+      "Active Directory": 0.012766138122282061,
+      "Computer-Services": 0.51924209666304
+    },
+    "base_latency_ms": 280.6160690001889
+  },
+  {
+    "text": "Skype isn't working for me \u2014 I can't access it at all no matter what I try. Can someone look into this?",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.08133502393331812,
+      "Fileservice": 0.0025996345801126653,
+      "O365": 0.7437796835363392,
+      "EOL": 0.000223159098822847,
+      "Software": 0.12568902394074014,
+      "Active Directory": 0.04590925900633759,
+      "Computer-Services": 0.00046421590432953213
+    },
+    "log_scores": {
+      "Support general": -10.697696685791016,
+      "Fileservice": -14.140902519226074,
+      "O365": -8.484528541564941,
+      "EOL": -16.59614372253418,
+      "Software": -10.262462615966797,
+      "Active Directory": -11.269606590270996,
+      "Computer-Services": -15.863678932189941
+    },
+    "latency_ms": 495.93290100028753,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.3260252900242697,
+      "Fileservice": 0.3739620530426921,
+      "O365": 0.019943452552000765,
+      "EOL": 0.004723199678311058,
+      "Software": 0.00452615360377696,
+      "Active Directory": 0.023961694663674853,
+      "Computer-Services": 0.2468581564352745
+    },
+    "base_latency_ms": 283.8582760000463
+  },
+  {
+    "text": "The printer isn't working right \u2014 I'm not sure exactly what's wrong, but something's off and my jobs aren't printing correctly. Can someone come have a look?",
+    "truth": "Computer-Services",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.26958469328858564,
+      "Fileservice": 0.03051695071891752,
+      "O365": 0.0017640922842123313,
+      "EOL": 2.753622276303438e-05,
+      "Software": 0.025459475324760467,
+      "Active Directory": 0.012316788145027405,
+      "Computer-Services": 0.6603304640157336
+    },
+    "log_scores": {
+      "Support general": -9.489026069641113,
+      "Fileservice": -11.66762638092041,
+      "O365": -14.518272399902344,
+      "EOL": -18.67816162109375,
+      "Software": -11.848820686340332,
+      "Active Directory": -12.574945449829102,
+      "Computer-Services": -8.593168258666992
+    },
+    "latency_ms": 529.7094699999434,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2944333618787273,
+      "Fileservice": 0.16175043654589427,
+      "O365": 0.009282254152805706,
+      "EOL": 0.0018153633678234314,
+      "Software": 0.0009328164120058671,
+      "Active Directory": 0.02514698355953271,
+      "Computer-Services": 0.5066387840832107
+    },
+    "base_latency_ms": 311.3167550000071
+  },
+  {
+    "text": "Can you kick off the decommission process for [SERVER]? Needs to be removed from Nexthink, IP reservations checked, and the network team should be looped in to remove the firewall rules.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.03672677298498946,
+      "Fileservice": 0.00034030941779090155,
+      "O365": 0.0015624388478295093,
+      "EOL": 0.9420161048806778,
+      "Software": 0.00796074733754884,
+      "Active Directory": 0.008324408925301518,
+      "Computer-Services": 0.0030692176058619743
+    },
+    "log_scores": {
+      "Support general": -11.496591567993164,
+      "Fileservice": -16.177997589111328,
+      "O365": -14.653849601745605,
+      "EOL": -8.2520751953125,
+      "Software": -13.025574684143066,
+      "Active Directory": -12.980905532836914,
+      "Computer-Services": -13.97867488861084
+    },
+    "latency_ms": 506.1723419998998,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.1861887293845629,
+      "Fileservice": 0.0520983145801402,
+      "O365": 0.004979832420080281,
+      "EOL": 0.00016644586973208692,
+      "Software": 0.00011939424480655639,
+      "Active Directory": 0.002455524034194813,
+      "Computer-Services": 0.7539917594664832
+    },
+    "base_latency_ms": 281.8954340000346
+  },
+  {
+    "text": "Hi, I need Skype activated on the profile for [NAME] \u2014 it doesn't seem to be enabled yet. Could you get that sorted out?",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.03758641343582751,
+      "Fileservice": 0.0013057560479110507,
+      "O365": 0.8514502106919845,
+      "EOL": 0.00019792277377867306,
+      "Software": 0.04367937003430345,
+      "Active Directory": 0.06537911711216672,
+      "Computer-Services": 0.0004012099040280479
+    },
+    "log_scores": {
+      "Support general": -11.485599517822266,
+      "Fileservice": -14.845459938049316,
+      "O365": -8.365301132202148,
+      "EOL": -16.732120513916016,
+      "Software": -11.335366249084473,
+      "Active Directory": -10.932039260864258,
+      "Computer-Services": -16.0255126953125
+    },
+    "latency_ms": 496.05211400012195,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.25849979357362785,
+      "Fileservice": 0.31607002071042933,
+      "O365": 0.027165247882005555,
+      "EOL": 0.002666889085574545,
+      "Software": 0.001779586755896668,
+      "Active Directory": 0.058509466756782036,
+      "Computer-Services": 0.3353089952356839
+    },
+    "base_latency_ms": 294.15030000018305
+  },
+  {
+    "text": "Hi, just flagging that there's a vulnerability alert that was initiated by [COMPANY] [LOCATION] on [SERVER] at [LOCATION]. Could someone look into this as soon as possible?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5580564508224792,
+      "Fileservice": 0.024711478573034358,
+      "O365": 0.1525279196111855,
+      "EOL": 0.07184420730386785,
+      "Software": 0.14688218357783928,
+      "Active Directory": 0.04355327942844878,
+      "Computer-Services": 0.0024244806831449895
+    },
+    "log_scores": {
+      "Support general": -8.76878547668457,
+      "Fileservice": -11.885977745056152,
+      "O365": -10.065897941589355,
+      "EOL": -10.818745613098145,
+      "Software": -10.103614807128906,
+      "Active Directory": -11.319260597229004,
+      "Computer-Services": -14.20762825012207
+    },
+    "latency_ms": 500.19154799974785,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.37093292487025875,
+      "Fileservice": 0.21642847251204342,
+      "O365": 0.015974110126606003,
+      "EOL": 0.0021376933668177255,
+      "Software": 0.002831157270027382,
+      "Active Directory": 0.04478255881142859,
+      "Computer-Services": 0.3469130830428182
+    },
+    "base_latency_ms": 283.14073999990796
+  },
+  {
+    "text": "Hi, I need to request login access for [LOCATION] \u2014 could someone please help me get that set up?",
+    "truth": "Fileservice",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.547839832327321,
+      "Fileservice": 0.04412677924996763,
+      "O365": 0.2570081841435967,
+      "EOL": 0.0021339098958822206,
+      "Software": 0.03443686775639675,
+      "Active Directory": 0.09948941971009231,
+      "Computer-Services": 0.014965006916743396
+    },
+    "log_scores": {
+      "Support general": -8.785889625549316,
+      "Fileservice": -11.304805755615234,
+      "O365": -9.542764663696289,
+      "EOL": -14.333916664123535,
+      "Software": -11.55274486541748,
+      "Active Directory": -10.4918212890625,
+      "Computer-Services": -12.386157989501953
+    },
+    "latency_ms": 508.47595200002615,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.35856143378052646,
+      "Fileservice": 0.2884269840945457,
+      "O365": 0.0487321555823944,
+      "EOL": 0.0036470565603712274,
+      "Software": 0.0053527594242092184,
+      "Active Directory": 0.034658585803561376,
+      "Computer-Services": 0.2606210247543916
+    },
+    "base_latency_ms": 290.3915239999151
+  },
+  {
+    "text": "Hi team, we need to decommission [SERVER] from Nexthink. This includes removing the system from Nexthink, checking and cleaning up any IP reservations, and notifying the network team so they can remove the associated firewall rules. Please let me know if you need any additional details to get this done.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.04775377133031418,
+      "Fileservice": 0.00037543179614084457,
+      "O365": 0.0007214572715486209,
+      "EOL": 0.9364579379142953,
+      "Software": 0.0042944878543034965,
+      "Active Directory": 0.008535804734199489,
+      "Computer-Services": 0.001861109099198082
+    },
+    "log_scores": {
+      "Support general": -11.246058464050293,
+      "Fileservice": -16.091794967651367,
+      "O365": -15.4385986328125,
+      "EOL": -8.270011901855469,
+      "Software": -13.654784202575684,
+      "Active Directory": -12.967846870422363,
+      "Computer-Services": -14.490943908691406
+    },
+    "latency_ms": 512.9717330000858,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.3192956934673846,
+      "Fileservice": 0.17168000472860098,
+      "O365": 0.015103237368673405,
+      "EOL": 0.0003971071498537129,
+      "Software": 0.0001500339107616836,
+      "Active Directory": 0.003265631380581593,
+      "Computer-Services": 0.49010829199414396
+    },
+    "base_latency_ms": 281.31058799999664
+  },
+  {
+    "text": "Hi, could you give me read/write access to j:/[NAME] on the J: drive? Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.021359961860549156,
+      "Fileservice": 0.9493760282599054,
+      "O365": 0.004112846900210941,
+      "EOL": 6.79790195079469e-05,
+      "Software": 0.015681205606974887,
+      "Active Directory": 0.004256441299450795,
+      "Computer-Services": 0.005145537053400868
+    },
+    "log_scores": {
+      "Support general": -12.020023345947266,
+      "Fileservice": -8.225736618041992,
+      "O365": -13.667426109313965,
+      "EOL": -17.770097732543945,
+      "Software": -12.329078674316406,
+      "Active Directory": -13.633108139038086,
+      "Computer-Services": -13.443411827087402
+    },
+    "latency_ms": 503.6142789999758,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.22548799176140877,
+      "Fileservice": 0.3489643033072448,
+      "O365": 0.04858369784441248,
+      "EOL": 0.0023377667419476984,
+      "Software": 0.01665274380799321,
+      "Active Directory": 0.03338844353090262,
+      "Computer-Services": 0.3245850530060903
+    },
+    "base_latency_ms": 287.8180929997143
+  },
+  {
+    "text": "Hi there, I need a few applications installed on my machine. Could someone reach out to get that sorted?",
+    "truth": "Software",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.12418743460452096,
+      "Fileservice": 0.008106320634691501,
+      "O365": 4.105819242875931e-05,
+      "EOL": 1.3655399422050994e-06,
+      "Software": 0.8656573100700032,
+      "Active Directory": 0.0007774615906201934,
+      "Computer-Services": 0.0012290493677932517
+    },
+    "log_scores": {
+      "Support general": -10.272331237792969,
+      "Fileservice": -13.001479148864746,
+      "O365": -18.286888122558594,
+      "EOL": -21.69032859802246,
+      "Software": -8.330634117126465,
+      "Active Directory": -15.345844268798828,
+      "Computer-Services": -14.887882232666016
+    },
+    "latency_ms": 619.6005100000548,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.34941663711246207,
+      "Fileservice": 0.2767845655683539,
+      "O365": 0.015551079840443596,
+      "EOL": 0.0005017513549622503,
+      "Software": 0.014699839741414868,
+      "Active Directory": 0.01768835705476302,
+      "Computer-Services": 0.3253577693276002
+    },
+    "base_latency_ms": 365.93548300015755
+  },
+  {
+    "text": "Hey, I'm getting an error when I try to use the RFB website. Not sure what's causing it but I can't get it to load properly \u2014 could someone help?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7680581817240296,
+      "Fileservice": 0.007035921896481478,
+      "O365": 0.08629306789220993,
+      "EOL": 0.0002225202560964561,
+      "Software": 0.13199093519141483,
+      "Active Directory": 0.0053394372103774635,
+      "Computer-Services": 0.001059935829390287
+    },
+    "log_scores": {
+      "Support general": -8.443500518798828,
+      "Fileservice": -13.136337280273438,
+      "O365": -10.629616737365723,
+      "EOL": -16.590103149414062,
+      "Software": -10.204632759094238,
+      "Active Directory": -13.412245750427246,
+      "Computer-Services": -15.029157638549805
+    },
+    "latency_ms": 613.1539990001329,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.6059958143215245,
+      "Fileservice": 0.20626012847790012,
+      "O365": 0.012878846907621014,
+      "EOL": 0.002495350101480772,
+      "Software": 0.001262097556414307,
+      "Active Directory": 0.015753210222569564,
+      "Computer-Services": 0.15535455241248977
+    },
+    "base_latency_ms": 404.47481899991544
+  },
+  {
+    "text": "Hello, could you please create a Light external user account with email and basic system access for someone outside our organization? Thanks so much!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.47291329634965545,
+      "Fileservice": 0.05906471275979259,
+      "O365": 0.26908372119716645,
+      "EOL": 0.0042409341849386495,
+      "Software": 0.09921057620254913,
+      "Active Directory": 0.08940868535829351,
+      "Computer-Services": 0.0060780739476041235
+    },
+    "log_scores": {
+      "Support general": -8.934538841247559,
+      "Fileservice": -11.014817237854004,
+      "O365": -9.498428344726562,
+      "EOL": -13.648667335510254,
+      "Software": -10.496206283569336,
+      "Active Directory": -10.60023307800293,
+      "Computer-Services": -13.288763046264648
+    },
+    "latency_ms": 712.1119160001399,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.24625497595493964,
+      "Fileservice": 0.3583081018519874,
+      "O365": 0.01988603435773415,
+      "EOL": 0.004623118876930251,
+      "Software": 0.0024961223268260926,
+      "Active Directory": 0.005431491725742505,
+      "Computer-Services": 0.36300015490584
+    },
+    "base_latency_ms": 299.7062019999248
+  },
+  {
+    "text": "Hi, I need help getting the T18 update applied to my computer. Can someone take care of that when they get a chance?",
+    "truth": "Software",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.34222202994553325,
+      "Fileservice": 0.009202277228280254,
+      "O365": 0.003504107463882505,
+      "EOL": 0.00017335880974635973,
+      "Software": 0.5719226868674725,
+      "Active Directory": 0.010673433726720362,
+      "Computer-Services": 0.062302105958364794
+    },
+    "log_scores": {
+      "Support general": -9.256260871887207,
+      "Fileservice": -12.872269630432129,
+      "O365": -13.837784767150879,
+      "EOL": -16.844112396240234,
+      "Software": -8.742716789245605,
+      "Active Directory": -12.723962783813477,
+      "Computer-Services": -10.959725379943848
+    },
+    "latency_ms": 498.32725600026606,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.28115400334670054,
+      "Fileservice": 0.21348066811465086,
+      "O365": 0.02692980810485937,
+      "EOL": 0.000918350127787284,
+      "Software": 0.0025212504936253737,
+      "Active Directory": 0.0178168051516616,
+      "Computer-Services": 0.45717911466071487
+    },
+    "base_latency_ms": 297.121937999691
+  },
+  {
+    "text": "Hey, I need to request access to [LOCATION] for our IT team \u2014 the site address is [ADDRESS], Americas region. Could someone get that set up?",
+    "truth": "Active Directory",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.6854582932813706,
+      "Fileservice": 0.09538893652930533,
+      "O365": 0.04862966130042677,
+      "EOL": 0.004399082103267621,
+      "Software": 0.02413809614715681,
+      "Active Directory": 0.08753305726810942,
+      "Computer-Services": 0.05445287337036336
+    },
+    "log_scores": {
+      "Support general": -8.560466766357422,
+      "Fileservice": -10.532591819763184,
+      "O365": -11.206320762634277,
+      "EOL": -13.609158515930176,
+      "Software": -11.906763076782227,
+      "Active Directory": -10.618537902832031,
+      "Computer-Services": -11.093218803405762
+    },
+    "latency_ms": 495.56540799994764,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.41255331982679594,
+      "Fileservice": 0.16749211596253577,
+      "O365": 0.03565426015162152,
+      "EOL": 0.0036990985092899735,
+      "Software": 0.0022296964725343035,
+      "Active Directory": 0.027564564940434206,
+      "Computer-Services": 0.35080694413678826
+    },
+    "base_latency_ms": 280.7786999997006
+  },
+  {
+    "text": "Hi, I'm trying to access something but it looks like I don't have the right permissions. Could someone look into releasing access for me? Happy to provide more details if needed.",
+    "truth": "Fileservice",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7061965788152654,
+      "Fileservice": 0.007335232904517996,
+      "O365": 0.006131166593035155,
+      "EOL": 0.00039246779497881636,
+      "Software": 0.043730995474700024,
+      "Active Directory": 0.23256220688488627,
+      "Computer-Services": 0.0036513515326162312
+    },
+    "log_scores": {
+      "Support general": -8.534760475158691,
+      "Fileservice": -13.101964950561523,
+      "O365": -13.281269073486328,
+      "EOL": -16.02995491027832,
+      "Software": -11.316596984863281,
+      "Active Directory": -9.645496368408203,
+      "Computer-Services": -13.799556732177734
+    },
+    "latency_ms": 504.9715679997462,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.36688128148683974,
+      "Fileservice": 0.2504988036223626,
+      "O365": 0.011311207856333813,
+      "EOL": 0.001344445740476815,
+      "Software": 0.0011601015568754038,
+      "Active Directory": 0.01885044021792909,
+      "Computer-Services": 0.3499537195191826
+    },
+    "base_latency_ms": 283.8940130000083
+  },
+  {
+    "text": "Good morning! I was hoping someone could help me get the SHARP printer installed on my laptop. Thanks in advance!",
+    "truth": "Computer-Services",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.17868172135440077,
+      "Fileservice": 0.10383333930096013,
+      "O365": 0.002093009046254386,
+      "EOL": 2.266782320030119e-05,
+      "Software": 0.0493593932688903,
+      "Active Directory": 0.00899459579302964,
+      "Computer-Services": 0.6570152734132644
+    },
+    "log_scores": {
+      "Support general": -9.902508735656738,
+      "Fileservice": -10.445327758789062,
+      "O365": -14.349512100219727,
+      "EOL": -18.874923706054688,
+      "Software": -11.188986778259277,
+      "Active Directory": -12.891490936279297,
+      "Computer-Services": -8.600407600402832
+    },
+    "latency_ms": 504.27992100003394,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.24208573516833687,
+      "Fileservice": 0.27163093816836703,
+      "O365": 0.02367191372954942,
+      "EOL": 0.0012909895752856195,
+      "Software": 0.006779310333318515,
+      "Active Directory": 0.017899061030196794,
+      "Computer-Services": 0.4366420519949457
+    },
+    "base_latency_ms": 283.74016600037066
+  },
+  {
+    "text": "Hi there, we need to cancel a user's account and make sure all their access is revoked. Please let me know what information you need from me to get this done.",
+    "truth": "Active Directory",
+    "prediction": "Active Directory",
+    "scores": {
+      "Support general": 0.18856062030010165,
+      "Fileservice": 0.0026005461127111425,
+      "O365": 0.0032979523164158426,
+      "EOL": 0.005939842270879064,
+      "Software": 0.022017518849866417,
+      "Active Directory": 0.7667706107995701,
+      "Computer-Services": 0.010812909350455745
+    },
+    "log_scores": {
+      "Support general": -9.857868194580078,
+      "Fileservice": -14.141566276550293,
+      "O365": -13.903985977172852,
+      "EOL": -13.315605163574219,
+      "Software": -12.005449295043945,
+      "Active Directory": -8.455100059509277,
+      "Computer-Services": -12.716547012329102
+    },
+    "latency_ms": 493.2969259998572,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.35550358214441774,
+      "Fileservice": 0.1571405330028531,
+      "O365": 0.0012508600391584732,
+      "EOL": 0.00043473148398295007,
+      "Software": 0.0004915453406391004,
+      "Active Directory": 0.003996153513507543,
+      "Computer-Services": 0.48118259447544104
+    },
+    "base_latency_ms": 298.96968100001686
+  },
+  {
+    "text": "Hi, I need my Okta Verify reset \u2014 I'm not able to authenticate right now and I'm locked out of everything. Please help!",
+    "truth": "Software",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.08538929088408773,
+      "Fileservice": 0.0011623257340714573,
+      "O365": 0.7896491941858704,
+      "EOL": 0.001727821799370947,
+      "Software": 0.007784661986876786,
+      "Active Directory": 0.11390609055198252,
+      "Computer-Services": 0.0003806148577401646
+    },
+    "log_scores": {
+      "Support general": -10.640233039855957,
+      "Fileservice": -14.937030792236328,
+      "O365": -8.415864944458008,
+      "EOL": -14.540592193603516,
+      "Software": -13.035298347473145,
+      "Active Directory": -10.352079391479492,
+      "Computer-Services": -16.053421020507812
+    },
+    "latency_ms": 494.6044299999812,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.388836563235259,
+      "Fileservice": 0.30783274064168165,
+      "O365": 0.06604849080517704,
+      "EOL": 0.008243241246511922,
+      "Software": 0.0013248321708078422,
+      "Active Directory": 0.03625680973941189,
+      "Computer-Services": 0.1914573221611507
+    },
+    "base_latency_ms": 297.6762159996724
+  },
+  {
+    "text": "Hi, I need access to our team email account in Outlook but I can't seem to get it to show up. Could someone help me get that set up?",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.004554115929843472,
+      "Fileservice": 3.526565929585179e-05,
+      "O365": 0.989432082961492,
+      "EOL": 0.00010007275680058112,
+      "Software": 0.00032444359753463917,
+      "Active Directory": 0.005551793471825199,
+      "Computer-Services": 2.2256232083403847e-06
+    },
+    "log_scores": {
+      "Support general": -13.5809965133667,
+      "Fileservice": -18.44187355041504,
+      "O365": -8.199896812438965,
+      "EOL": -17.39888572692871,
+      "Software": -16.222671508789062,
+      "Active Directory": -13.382906913757324,
+      "Computer-Services": -21.20474624633789
+    },
+    "latency_ms": 497.43560599972625,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.43446909656201993,
+      "Fileservice": 0.32011035493519147,
+      "O365": 0.03136072044982709,
+      "EOL": 0.003879819813321718,
+      "Software": 0.004660759307499717,
+      "Active Directory": 0.02512475444661372,
+      "Computer-Services": 0.18039449448552636
+    },
+    "base_latency_ms": 284.5536859999811
+  },
+  {
+    "text": "Hello everyone, I'm running into a network access issue between two servers. From [IP_ADDRESS] there's no access to port 443 (HTTPS) on [IP_ADDRESS], though it works fine in the other direction. We have a geoprocessing web application that requires two-way communication over HTTPS between the app server and the geoprocessing server, so we really need traffic to flow both ways. Could you please enable access from [IP_ADDRESS] to port 443 on [IP_ADDRESS]? Thanks so much, [NAME]",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.6681797981127612,
+      "Fileservice": 0.04484319271809475,
+      "O365": 0.033070374112963055,
+      "EOL": 0.001357962123492829,
+      "Software": 0.02153065474177897,
+      "Active Directory": 0.048731029636613146,
+      "Computer-Services": 0.1822869885542961
+    },
+    "log_scores": {
+      "Support general": -8.616880416870117,
+      "Fileservice": -11.318265914916992,
+      "O365": -11.62279987335205,
+      "EOL": -14.815452575683594,
+      "Software": -12.051959991455078,
+      "Active Directory": -11.235121726989746,
+      "Computer-Services": -9.915855407714844
+    },
+    "latency_ms": 499.8839410000073,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.2598147227047525,
+      "Fileservice": 0.30195625303758256,
+      "O365": 0.10208810306704998,
+      "EOL": 0.0033906720669724198,
+      "Software": 0.006474584654928839,
+      "Active Directory": 0.037662424006146576,
+      "Computer-Services": 0.28861324046256714
+    },
+    "base_latency_ms": 323.7225150000995
+  },
+  {
+    "text": "Hi, I'm having some trouble with access \u2014 could someone help me out? I'm not sure who else to contact.",
+    "truth": "Active Directory",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7740178561038692,
+      "Fileservice": 0.021141882113101976,
+      "O365": 0.0785901360467763,
+      "EOL": 0.00044099491082705007,
+      "Software": 0.04357840413250584,
+      "Active Directory": 0.07526514101445317,
+      "Computer-Services": 0.00696558567846647
+    },
+    "log_scores": {
+      "Support general": -8.442676544189453,
+      "Fileservice": -12.043015480041504,
+      "O365": -10.730025291442871,
+      "EOL": -15.912993431091309,
+      "Software": -11.319709777832031,
+      "Active Directory": -10.77325439453125,
+      "Computer-Services": -13.153289794921875
+    },
+    "latency_ms": 514.5853799999713,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.5092115402806116,
+      "Fileservice": 0.24437992586638074,
+      "O365": 0.004882173286481626,
+      "EOL": 0.001447164495897691,
+      "Software": 0.00026857766657773066,
+      "Active Directory": 0.012425877788395922,
+      "Computer-Services": 0.22738474061565472
+    },
+    "base_latency_ms": 284.9378649998471
+  },
+  {
+    "text": "I'm having trouble with XFlow \u2014 when I go to code invoices, they're not showing up in the system. I can't get any work done without being able to see them, so hoping someone can fix this soon.",
+    "truth": "Software",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5090323423727319,
+      "Fileservice": 0.0589899929053473,
+      "O365": 0.0270419935105178,
+      "EOL": 0.00021510424612023775,
+      "Software": 0.3870191575021835,
+      "Active Directory": 0.010424980923492689,
+      "Computer-Services": 0.007276428539606658
+    },
+    "log_scores": {
+      "Support general": -8.864278793334961,
+      "Fileservice": -11.01942253112793,
+      "O365": -11.799399375915527,
+      "EOL": -16.6334228515625,
+      "Software": -9.13831615447998,
+      "Active Directory": -12.752585411071777,
+      "Computer-Services": -13.112150192260742
+    },
+    "latency_ms": 506.6357619998598,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.36319313847692003,
+      "Fileservice": 0.3500136821353608,
+      "O365": 0.010814224344350936,
+      "EOL": 0.0019288801608579335,
+      "Software": 0.00432581543935452,
+      "Active Directory": 0.03968177804901577,
+      "Computer-Services": 0.23004248139413996
+    },
+    "base_latency_ms": 288.4913430002598
+  },
+  {
+    "text": "Hey, I just realized I don't have Outlook on my computer \u2014 can someone get that installed for me? I need it to handle my emails.",
+    "truth": "Software",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.004674539859690867,
+      "Fileservice": 0.0002900474667716014,
+      "O365": 0.981342022786026,
+      "EOL": 0.000557192063330281,
+      "Software": 0.004938922795353716,
+      "Active Directory": 0.00818928326295976,
+      "Computer-Services": 7.991765867764329e-06
+    },
+    "log_scores": {
+      "Support general": -13.567479133605957,
+      "Fileservice": -16.347320556640625,
+      "O365": -8.220688819885254,
+      "EOL": -15.69445514678955,
+      "Software": -13.512462615966797,
+      "Active Directory": -13.006783485412598,
+      "Computer-Services": -19.938953399658203
+    },
+    "latency_ms": 501.07731500020236,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.21994986217681342,
+      "Fileservice": 0.4221907680536368,
+      "O365": 0.015510414902979774,
+      "EOL": 0.0017120353328624635,
+      "Software": 0.0008593512224538982,
+      "Active Directory": 0.01459430036442557,
+      "Computer-Services": 0.325183267946828
+    },
+    "base_latency_ms": 296.0506650001662
+  },
+  {
+    "text": "Hi, I need read/write access to a few folders on the J: drive \u2014 specifically J:/GE-SB, J:/MolTec, and J:/Geldokumentation. Could you set that up for me when you get a chance?",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.03313159786366789,
+      "Fileservice": 0.9567742497827554,
+      "O365": 0.0013071610775725693,
+      "EOL": 1.4786204434834863e-05,
+      "Software": 0.003941251157623487,
+      "Active Directory": 0.00261456027270386,
+      "Computer-Services": 0.002216393641241886
+    },
+    "log_scores": {
+      "Support general": -11.589170455932617,
+      "Fileservice": -8.226090431213379,
+      "O365": -14.821800231933594,
+      "EOL": -19.30371856689453,
+      "Software": -13.718159675598145,
+      "Active Directory": -14.128561973571777,
+      "Computer-Services": -14.293776512145996
+    },
+    "latency_ms": 522.7615720000358,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.18854299363453528,
+      "Fileservice": 0.41116433007744624,
+      "O365": 0.011955976468266875,
+      "EOL": 0.0021103592287173086,
+      "Software": 0.0011383079338266647,
+      "Active Directory": 0.010564382682965634,
+      "Computer-Services": 0.374523649974242
+    },
+    "base_latency_ms": 397.9554269999426
+  },
+  {
+    "text": "Hi there, we have a new person starting and they'll need a user account set up. Could you help get that sorted out for them?",
+    "truth": "Fileservice",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5820896282933136,
+      "Fileservice": 0.05757287592849798,
+      "O365": 0.013415187590055631,
+      "EOL": 0.00017795792573083535,
+      "Software": 0.049071091656589655,
+      "Active Directory": 0.292543468809525,
+      "Computer-Services": 0.005129789796287363
+    },
+    "log_scores": {
+      "Support general": -8.724912643432617,
+      "Fileservice": -11.038485527038574,
+      "O365": -12.495149612426758,
+      "EOL": -16.817745208740234,
+      "Software": -11.198266983032227,
+      "Active Directory": -9.412923812866211,
+      "Computer-Services": -13.456472396850586
+    },
+    "latency_ms": 616.2817740000719,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.38153101932606137,
+      "Fileservice": 0.27233527969346094,
+      "O365": 0.007269736523904496,
+      "EOL": 0.0005862322283565213,
+      "Software": 0.0001514823802725092,
+      "Active Directory": 0.0009237286710932961,
+      "Computer-Services": 0.3372025211768509
+    },
+    "base_latency_ms": 368.72512199988705
+  },
+  {
+    "text": "Hi there, I need read/write access to N:/[SERVER]/STA-PGRO, including all the subfolders underneath it. Could you please set that up for me?",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.019533653605270422,
+      "Fileservice": 0.9688737533193387,
+      "O365": 0.0019554593590043034,
+      "EOL": 6.020424475490546e-05,
+      "Software": 0.006163865213771761,
+      "Active Directory": 0.0022519566228633068,
+      "Computer-Services": 0.0011611076349965163
+    },
+    "log_scores": {
+      "Support general": -12.111937522888184,
+      "Fileservice": -8.207942008972168,
+      "O365": -14.413451194763184,
+      "EOL": -17.894088745117188,
+      "Software": -13.265372276306152,
+      "Active Directory": -14.272276878356934,
+      "Computer-Services": -14.934701919555664
+    },
+    "latency_ms": 642.4615680002717,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.31353528030192107,
+      "Fileservice": 0.2937912246547274,
+      "O365": 0.0521654567140907,
+      "EOL": 0.003267949020372687,
+      "Software": 0.004800125675370745,
+      "Active Directory": 0.028264391536129932,
+      "Computer-Services": 0.3041755720973875
+    },
+    "base_latency_ms": 414.9094259996673
+  },
+  {
+    "text": "Hi there, could you give me read-only access to the J:/FAQ BTR_HR folder on the network drive? I just need to be able to view the files in there. Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.0237662709555264,
+      "Fileservice": 0.9730598772222403,
+      "O365": 0.0010095102944635398,
+      "EOL": 8.610638642599578e-06,
+      "Software": 0.001325751806377824,
+      "Active Directory": 0.0006240950651012539,
+      "Computer-Services": 0.00020588401764814603
+    },
+    "log_scores": {
+      "Support general": -11.921761512756348,
+      "Fileservice": -8.209583282470703,
+      "O365": -15.08056354522705,
+      "EOL": -19.844785690307617,
+      "Software": -14.808049201965332,
+      "Active Directory": -15.561481475830078,
+      "Computer-Services": -16.67047119140625
+    },
+    "latency_ms": 501.4394570002878,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.3025480342307959,
+      "Fileservice": 0.3971226348487466,
+      "O365": 0.01604747686513888,
+      "EOL": 0.0017468338101747148,
+      "Software": 0.002926428558225231,
+      "Active Directory": 0.0167951724090607,
+      "Computer-Services": 0.26281341927785795
+    },
+    "base_latency_ms": 285.0762210000539
+  },
+  {
+    "text": "Hi, I need the printers [SERVER] and 03 installed on my computer. Could someone help me get both of them set up? I haven't been able to add them on my own.",
+    "truth": "Computer-Services",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.1258060939824984,
+      "Fileservice": 0.0994676760243747,
+      "O365": 0.0016104429844250585,
+      "EOL": 2.9869497462326887e-05,
+      "Software": 0.022762460872063597,
+      "Active Directory": 0.009297070284386784,
+      "Computer-Services": 0.7410263863547891
+    },
+    "log_scores": {
+      "Support general": -10.268768310546875,
+      "Fileservice": -10.503677368164062,
+      "O365": -14.62700080871582,
+      "EOL": -18.61442756652832,
+      "Software": -11.978397369384766,
+      "Active Directory": -12.873810768127441,
+      "Computer-Services": -8.495473861694336
+    },
+    "latency_ms": 508.3938770003442,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.23043741816102503,
+      "Fileservice": 0.18068448183327254,
+      "O365": 0.013758884978763847,
+      "EOL": 0.0012070285766495876,
+      "Software": 0.0014771711254312956,
+      "Active Directory": 0.02368044805325037,
+      "Computer-Services": 0.5487545672716073
+    },
+    "base_latency_ms": 285.3261069999462
+  },
+  {
+    "text": "Hello, I need a new Windows account set up for someone on my team. They'll need email through Exchange, Skype, and access to the standard shared drives. Thanks!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.49287472037751,
+      "Fileservice": 0.03353392504385056,
+      "O365": 0.014219063465813104,
+      "EOL": 0.0003844796867425608,
+      "Software": 0.1331910147308045,
+      "Active Directory": 0.2782984684236307,
+      "Computer-Services": 0.04749832827164853
+    },
+    "log_scores": {
+      "Support general": -8.897917747497559,
+      "Fileservice": -11.585615158081055,
+      "O365": -12.443589210510254,
+      "EOL": -16.05403709411621,
+      "Software": -10.206388473510742,
+      "Active Directory": -9.469478607177734,
+      "Computer-Services": -11.237478256225586
+    },
+    "latency_ms": 512.6668200000495,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.30800455181191894,
+      "Fileservice": 0.2959769242371479,
+      "O365": 0.027495822570904042,
+      "EOL": 0.004694220090536199,
+      "Software": 0.0038770867884211765,
+      "Active Directory": 0.008577347562689708,
+      "Computer-Services": 0.3513740469383821
+    },
+    "base_latency_ms": 285.54533899978196
+  },
+  {
+    "text": "Hello, I need a Light (external) user account created with email access and basic system permissions. Could you get that set up for me? Let me know what information you need.",
+    "truth": "Active Directory",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.6983513093733519,
+      "Fileservice": 0.09713977413028367,
+      "O365": 0.04771950625189554,
+      "EOL": 0.0007234176231743922,
+      "Software": 0.06107971251948125,
+      "Active Directory": 0.08595698090016156,
+      "Computer-Services": 0.009029299201651684
+    },
+    "log_scores": {
+      "Support general": -8.547609329223633,
+      "Fileservice": -10.520180702209473,
+      "O365": -11.23099136352539,
+      "EOL": -15.420100212097168,
+      "Software": -10.984151840209961,
+      "Active Directory": -10.642484664916992,
+      "Computer-Services": -12.895856857299805
+    },
+    "latency_ms": 493.3691030000773,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.3129580206694929,
+      "Fileservice": 0.2600463249389044,
+      "O365": 0.013391521276548364,
+      "EOL": 0.002399113489975415,
+      "Software": 0.00039254268960375947,
+      "Active Directory": 0.0013719757614575846,
+      "Computer-Services": 0.40944050117401753
+    },
+    "base_latency_ms": 288.55189399973824
+  },
+  {
+    "text": "Hi, I need a program installed on my computer and also need the printer drivers updated. Could someone help me get both of those sorted out?",
+    "truth": "Computer-Services",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.282840603462302,
+      "Fileservice": 0.04083115300878005,
+      "O365": 0.0015559622953385324,
+      "EOL": 5.695822565197666e-05,
+      "Software": 0.5572609807482083,
+      "Active Directory": 0.005452986945747441,
+      "Computer-Services": 0.11200135531397175
+    },
+    "log_scores": {
+      "Support general": -9.450231552124023,
+      "Fileservice": -11.385669708251953,
+      "O365": -14.653020858764648,
+      "EOL": -17.960552215576172,
+      "Software": -8.77208137512207,
+      "Active Directory": -13.398951530456543,
+      "Computer-Services": -10.376604080200195
+    },
+    "latency_ms": 485.26960200024405,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.1838331982819773,
+      "Fileservice": 0.27154072506738225,
+      "O365": 0.03691765031825879,
+      "EOL": 0.0010685990940954547,
+      "Software": 0.00029453560432352456,
+      "Active Directory": 0.01854057238377608,
+      "Computer-Services": 0.48780471925018654
+    },
+    "base_latency_ms": 292.277567000383
+  },
+  {
+    "text": "This was initiated by [COMPANY] [LOCATION] \u2014 there's a vulnerable [LOCATION] identified at [LOCATION]-[ADDRESS] that needs to be investigated.",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7559547570523854,
+      "Fileservice": 0.016676387509180025,
+      "O365": 0.066359429538533,
+      "EOL": 0.025746065573890246,
+      "Software": 0.07329651709636176,
+      "Active Directory": 0.04200130988974714,
+      "Computer-Services": 0.01996553333990246
+    },
+    "log_scores": {
+      "Support general": -8.47592544555664,
+      "Fileservice": -12.289913177490234,
+      "O365": -10.908821105957031,
+      "EOL": -11.85562515258789,
+      "Software": -10.809393882751465,
+      "Active Directory": -11.366206169128418,
+      "Computer-Services": -12.109899520874023
+    },
+    "latency_ms": 490.9274049996384,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.35080114063184764,
+      "Fileservice": 0.22549678627126596,
+      "O365": 0.005543282936874933,
+      "EOL": 0.0028309726930636995,
+      "Software": 0.0014681963388182297,
+      "Active Directory": 0.02387254487818852,
+      "Computer-Services": 0.38998707624994106
+    },
+    "base_latency_ms": 286.0663599999498
+  },
+  {
+    "text": "Hi, I've been running into some problems with Outlook and need some help getting it sorted out. It doesn't seem to be working properly \u2014 can someone take a look?",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.0111688978186512,
+      "Fileservice": 2.7767083709540178e-05,
+      "O365": 0.980874199321077,
+      "EOL": 0.00011778045781427777,
+      "Software": 0.0006521725544289855,
+      "Active Directory": 0.007155514923498026,
+      "Computer-Services": 3.667840820983854e-06
+    },
+    "log_scores": {
+      "Support general": -12.679875373840332,
+      "Fileservice": -18.676912307739258,
+      "O365": -8.204564094543457,
+      "EOL": -17.23194122314453,
+      "Software": -15.520454406738281,
+      "Active Directory": -13.12512493133545,
+      "Computer-Services": -20.701160430908203
+    },
+    "latency_ms": 511.33528099990144,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.6317698233443619,
+      "Fileservice": 0.20854449754406698,
+      "O365": 0.010114521551509329,
+      "EOL": 0.0007179136770003096,
+      "Software": 0.000973243574380641,
+      "Active Directory": 0.01823336670046662,
+      "Computer-Services": 0.12964663360821407
+    },
+    "base_latency_ms": 284.63621199989575
+  },
+  {
+    "text": "Hi there, I need help with the BarTender app \u2014 could someone assist me with getting it installed or set up on my machine?",
+    "truth": "Software",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.4287531182005928,
+      "Fileservice": 0.031427969652062376,
+      "O365": 0.017585196793195982,
+      "EOL": 5.45915397336851e-05,
+      "Software": 0.5078901956454024,
+      "Active Directory": 0.0077758676536573475,
+      "Computer-Services": 0.006513060515355394
+    },
+    "log_scores": {
+      "Support general": -9.029495239257812,
+      "Fileservice": -11.642678260803223,
+      "O365": -12.223319053649902,
+      "EOL": -17.998252868652344,
+      "Software": -8.860111236572266,
+      "Active Directory": -13.039351463317871,
+      "Computer-Services": -13.216567039489746
+    },
+    "latency_ms": 503.41770999966684,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.39978288117534666,
+      "Fileservice": 0.2401474842853813,
+      "O365": 0.008857626248380957,
+      "EOL": 0.00047625510501585016,
+      "Software": 0.002083794622464207,
+      "Active Directory": 0.01638037599187278,
+      "Computer-Services": 0.33227158257153827
+    },
+    "base_latency_ms": 286.97338600022704
+  },
+  {
+    "text": "Hi, I need read and write access to the J:/INS-VW file share please. Could you get that set up for me when you get a chance?",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.00598437762315477,
+      "Fileservice": 0.9921590916096715,
+      "O365": 0.0007364276785878691,
+      "EOL": 8.224153037859145e-06,
+      "Software": 0.0004864751723636234,
+      "Active Directory": 0.00042500087362747627,
+      "Computer-Services": 0.00020040288955702006
+    },
+    "log_scores": {
+      "Support general": -13.29090690612793,
+      "Fileservice": -8.18017578125,
+      "O365": -15.386003494262695,
+      "EOL": -19.880739212036133,
+      "Software": -15.800628662109375,
+      "Active Directory": -15.935723304748535,
+      "Computer-Services": -16.687484741210938
+    },
+    "latency_ms": 503.568938999706,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.27906825136298813,
+      "Fileservice": 0.36301996124238733,
+      "O365": 0.03879364855081744,
+      "EOL": 0.004791534272541227,
+      "Software": 0.007163071237865696,
+      "Active Directory": 0.028037257370135654,
+      "Computer-Services": 0.2791262759632645
+    },
+    "base_latency_ms": 295.36983700018027
+  },
+  {
+    "text": "Hey, I need to get registered with Okta and I'm not sure how to do it on my own. Could someone walk me through the new Okta registration process?",
+    "truth": "Software",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.6025637057736725,
+      "Fileservice": 0.002129419942101489,
+      "O365": 0.15561692685612571,
+      "EOL": 0.0014786849009215829,
+      "Software": 0.06379006539999235,
+      "Active Directory": 0.17247381765281858,
+      "Computer-Services": 0.0019473794743677891
+    },
+    "log_scores": {
+      "Support general": -8.690189361572266,
+      "Fileservice": -14.335533142089844,
+      "O365": -10.043985366821289,
+      "EOL": -14.70022964477539,
+      "Software": -10.935785293579102,
+      "Active Directory": -9.941137313842773,
+      "Computer-Services": -14.424898147583008
+    },
+    "latency_ms": 532.5725600000624,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.5659419239379134,
+      "Fileservice": 0.09924735479178075,
+      "O365": 0.014359702916647149,
+      "EOL": 0.0015897917692979878,
+      "Software": 0.0015680158134507229,
+      "Active Directory": 0.018140701196641292,
+      "Computer-Services": 0.29915250957426875
+    },
+    "base_latency_ms": 300.4738949998682
+  },
+  {
+    "text": "Hello, could you please set up read/write access to [SERVER]-FINANCE-RW for me? I need to be able to view and edit files there for my work. Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.08938015960181432,
+      "Fileservice": 0.844973515560608,
+      "O365": 0.015642031862258775,
+      "EOL": 0.0003352750071833841,
+      "Software": 0.0349741120869047,
+      "Active Directory": 0.012179645270327746,
+      "Computer-Services": 0.0025152606109031875
+    },
+    "log_scores": {
+      "Support general": -10.591594696044922,
+      "Fileservice": -8.34518814086914,
+      "O365": -12.334531784057617,
+      "EOL": -16.177297592163086,
+      "Software": -11.529885292053223,
+      "Active Directory": -12.58472728729248,
+      "Computer-Services": -14.162117004394531
+    },
+    "latency_ms": 489.69438799986165,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.21035482232771402,
+      "Fileservice": 0.43650967328591955,
+      "O365": 0.0338487774578636,
+      "EOL": 0.001980479452616889,
+      "Software": 0.0014830220234007007,
+      "Active Directory": 0.01705139518793262,
+      "Computer-Services": 0.29877183026455256
+    },
+    "base_latency_ms": 286.6695669999899
+  },
+  {
+    "text": "Hey, could you set up a basic user account for Birgit with the username [USERNAME] at [COMPANY] in [LOCATION]? Thanks in advance!",
+    "truth": "Support general",
+    "prediction": "Active Directory",
+    "scores": {
+      "Support general": 0.37450317440085656,
+      "Fileservice": 0.06392644918319995,
+      "O365": 0.02045602368186939,
+      "EOL": 0.000615003898416561,
+      "Software": 0.0830636673199333,
+      "Active Directory": 0.4243179165064066,
+      "Computer-Services": 0.03311776500931758
+    },
+    "log_scores": {
+      "Support general": -9.173356056213379,
+      "Fileservice": -10.94122314453125,
+      "O365": -12.080678939819336,
+      "EOL": -15.5850830078125,
+      "Software": -10.679348945617676,
+      "Active Directory": -9.048473358154297,
+      "Computer-Services": -11.598886489868164
+    },
+    "latency_ms": 548.4536919998391,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.3355075877035108,
+      "Fileservice": 0.1557187021929652,
+      "O365": 0.04648562418200546,
+      "EOL": 0.002746919865658751,
+      "Software": 0.0033152700661997435,
+      "Active Directory": 0.016588116482426606,
+      "Computer-Services": 0.4396377795072335
+    },
+    "base_latency_ms": 335.7269680000172
+  },
+  {
+    "text": "Hi there, could someone please install Microsoft Teams on my computer? I need it to connect with my team and I don't have it yet.",
+    "truth": "Software",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.10248435920701575,
+      "Fileservice": 0.003620052503290657,
+      "O365": 0.10239223492835182,
+      "EOL": 0.0001850458008300158,
+      "Software": 0.7707533610237776,
+      "Active Directory": 0.014344523352951381,
+      "Computer-Services": 0.0062204231837828545
+    },
+    "log_scores": {
+      "Support general": -10.477882385253906,
+      "Fileservice": -13.821104049682617,
+      "O365": -10.478781700134277,
+      "EOL": -16.79474449157715,
+      "Software": -8.460224151611328,
+      "Active Directory": -12.44422435760498,
+      "Computer-Services": -13.279754638671875
+    },
+    "latency_ms": 652.5811989999966,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.21963285746775388,
+      "Fileservice": 0.2216769883574988,
+      "O365": 0.00262288392207401,
+      "EOL": 0.0002749035235554804,
+      "Software": 0.0007174943525344101,
+      "Active Directory": 0.007036654287448347,
+      "Computer-Services": 0.5480382180891351
+    },
+    "base_latency_ms": 354.5722429998932
+  },
+  {
+    "text": "Hello, I need read/write access to the J:/RISK-MANAGEMENT (GGR-RIM) file share. Could you get that set up for me when you get a chance? Thanks.",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.007342484970512229,
+      "Fileservice": 0.9907804946933647,
+      "O365": 0.0006762694902941363,
+      "EOL": 1.0431212167418546e-05,
+      "Software": 0.0005985053761678343,
+      "Active Directory": 0.0003849234627540136,
+      "Computer-Services": 0.00020689079473954383
+    },
+    "log_scores": {
+      "Support general": -13.092890739440918,
+      "Fileservice": -8.188075065612793,
+      "O365": -15.477731704711914,
+      "EOL": -19.649520874023438,
+      "Software": -15.59988784790039,
+      "Active Directory": -16.041278839111328,
+      "Computer-Services": -16.662132263183594
+    },
+    "latency_ms": 627.7253339999334,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.28975799058649176,
+      "Fileservice": 0.4010755522358717,
+      "O365": 0.037416541218982226,
+      "EOL": 0.0029019933810327343,
+      "Software": 0.005748473855647105,
+      "Active Directory": 0.012783526493423042,
+      "Computer-Services": 0.2503159222285514
+    },
+    "base_latency_ms": 370.3563290000602
+  },
+  {
+    "text": "Hey, can someone kick off the decommission process for [SERVER] in Nexthink? Need the system removed, IP reservations reviewed, and the network team brought in to handle the firewall rule cleanup.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.03693897491228841,
+      "Fileservice": 0.00042980392374540426,
+      "O365": 0.0022409139621370365,
+      "EOL": 0.9417422147819885,
+      "Software": 0.004789615364582252,
+      "Active Directory": 0.010913820225777124,
+      "Computer-Services": 0.0029446568294813976
+    },
+    "log_scores": {
+      "Support general": -11.495619773864746,
+      "Fileservice": -15.949313163757324,
+      "O365": -14.298003196716309,
+      "EOL": -8.257155418395996,
+      "Software": -13.538436889648438,
+      "Active Directory": -12.71485710144043,
+      "Computer-Services": -14.024894714355469
+    },
+    "latency_ms": 638.1315629996607,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.3387831057390111,
+      "Fileservice": 0.09888831460252394,
+      "O365": 0.0245898140706919,
+      "EOL": 0.0007025075918400457,
+      "Software": 0.00041832549701019373,
+      "Active Directory": 0.010712579994808765,
+      "Computer-Services": 0.5259053525041141
+    },
+    "base_latency_ms": 286.6171949999625
+  },
+  {
+    "text": "Hello, we have a new team member starting and need a user account created for them. Could you help get that set up? Let me know what information you need from me.",
+    "truth": "Fileservice",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.6765863647656513,
+      "Fileservice": 0.0636487231316498,
+      "O365": 0.006911932717462867,
+      "EOL": 0.0001898572153957472,
+      "Software": 0.05346736356009396,
+      "Active Directory": 0.18668138114331229,
+      "Computer-Services": 0.012514377466434112
+    },
+    "log_scores": {
+      "Support general": -8.607681274414062,
+      "Fileservice": -10.971362113952637,
+      "O365": -13.191492080688477,
+      "EOL": -16.786224365234375,
+      "Software": -11.145669937133789,
+      "Active Directory": -9.89533805847168,
+      "Computer-Services": -12.59786319732666
+    },
+    "latency_ms": 506.8778419999944,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.4686188577966594,
+      "Fileservice": 0.18174146919154224,
+      "O365": 0.0033087148922771887,
+      "EOL": 0.0007584243753468213,
+      "Software": 0.00024980861170682903,
+      "Active Directory": 0.0009415368977251909,
+      "Computer-Services": 0.34438118823474223
+    },
+    "base_latency_ms": 286.65749499987214
+  },
+  {
+    "text": "Hey, [SERVER] is ready to be decommissioned. Please go ahead and remove it from Nexthink, double-check any IP reservations tied to it, and reach out to the network team about cleaning up the firewall rules.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.011589500969789755,
+      "Fileservice": 0.00011009446866872115,
+      "O365": 0.000702199375134314,
+      "EOL": 0.9845830422336806,
+      "Software": 0.0012870654302762886,
+      "Active Directory": 0.0013953945696689421,
+      "Computer-Services": 0.00033270295278121096
+    },
+    "log_scores": {
+      "Support general": -12.674952507019043,
+      "Fileservice": -17.33146858215332,
+      "O365": -15.47859001159668,
+      "EOL": -8.232833862304688,
+      "Software": -14.872687339782715,
+      "Active Directory": -14.791874885559082,
+      "Computer-Services": -16.225557327270508
+    },
+    "latency_ms": 491.12882200006425,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.29883835208618803,
+      "Fileservice": 0.11208191214500927,
+      "O365": 0.01241274481070076,
+      "EOL": 0.0017023219575873216,
+      "Software": 0.0006730987232548452,
+      "Active Directory": 0.007883537187638285,
+      "Computer-Services": 0.5664080330896215
+    },
+    "base_latency_ms": 294.09528599990153
+  },
+  {
+    "text": "Hey, could someone check the DNS and DHCP entries for the 10.10.89.0 network on the server side? Something doesn't seem right and it needs to be looked into.",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7609790862373569,
+      "Fileservice": 0.09061363174224527,
+      "O365": 0.022819108490786624,
+      "EOL": 0.002031264866994161,
+      "Software": 0.026458388262758613,
+      "Active Directory": 0.018036842438457962,
+      "Computer-Services": 0.07906167796140048
+    },
+    "log_scores": {
+      "Support general": -8.460572242736816,
+      "Fileservice": -10.588573455810547,
+      "O365": -11.96757984161377,
+      "EOL": -14.386519432067871,
+      "Software": -11.819604873657227,
+      "Active Directory": -12.20276165008545,
+      "Computer-Services": -10.724949836730957
+    },
+    "latency_ms": 499.7274809998089,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.41731540912640736,
+      "Fileservice": 0.24451563363464637,
+      "O365": 0.018137919698444253,
+      "EOL": 0.0018624079864325918,
+      "Software": 0.001058780408873835,
+      "Active Directory": 0.013205449359346123,
+      "Computer-Services": 0.3039043997858495
+    },
+    "base_latency_ms": 294.10905699978684
+  },
+  {
+    "text": "Skype for Business isn't working on my computer \u2014 I can't connect or use it at all. Please help!",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.08368834001049284,
+      "Fileservice": 0.0007867319143497407,
+      "O365": 0.7783308222445572,
+      "EOL": 0.00020856700695159845,
+      "Software": 0.07890928989274375,
+      "Active Directory": 0.05599184444087894,
+      "Computer-Services": 0.0020844044900259983
+    },
+    "log_scores": {
+      "Support general": -10.660566329956055,
+      "Fileservice": -15.327533721923828,
+      "O365": -8.430514335632324,
+      "EOL": -16.655160903930664,
+      "Software": -10.719367027282715,
+      "Active Directory": -11.062459945678711,
+      "Computer-Services": -14.353182792663574
+    },
+    "latency_ms": 495.5482740001571,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2413890728534488,
+      "Fileservice": 0.291819911754993,
+      "O365": 0.03346435296399986,
+      "EOL": 0.0035717645517964972,
+      "Software": 0.004845842332279696,
+      "Active Directory": 0.04432410246074549,
+      "Computer-Services": 0.3805849530827367
+    },
+    "base_latency_ms": 278.3116810001047
+  },
+  {
+    "text": "Heads up \u2014 emergency maintenance has been scheduled on [SERVER] at [LOCATION] for 2018-08-31 at 02:00 [LOCATION], affecting cpe0004630 ([LOCATION]_Balcarce), cpe0007405 ([LOCATION]_SaoPaulo), and cpe0008460 ([LOCATION]_PatosDeMinas) for [COMPANY] SE. Feedback on this is required \u2014 please respond when you can.",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.8088726099479157,
+      "Fileservice": 0.011455137696460782,
+      "O365": 0.014271847301824105,
+      "EOL": 0.019011126467208612,
+      "Software": 0.03619708853341206,
+      "Active Directory": 0.02021291644421999,
+      "Computer-Services": 0.08997927360895878
+    },
+    "log_scores": {
+      "Support general": -8.410128593444824,
+      "Fileservice": -12.66733169555664,
+      "O365": -12.447481155395508,
+      "EOL": -12.160745620727539,
+      "Software": -11.516791343688965,
+      "Active Directory": -12.099448204040527,
+      "Computer-Services": -10.60619068145752
+    },
+    "latency_ms": 508.06868099971325,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.35659185406326194,
+      "Fileservice": 0.2624983952062076,
+      "O365": 0.004172158791530849,
+      "EOL": 0.0008108673400982298,
+      "Software": 0.0005380697880668459,
+      "Active Directory": 0.003437912357396579,
+      "Computer-Services": 0.37195074245343795
+    },
+    "base_latency_ms": 337.9834569996092
+  },
+  {
+    "text": "Hey, I'm having an issue with my headphones \u2014 can someone from IT help me out?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.8773823983452886,
+      "Fileservice": 0.01708743402259112,
+      "O365": 0.007722172324466935,
+      "EOL": 3.277540820620168e-05,
+      "Software": 0.03576254642217481,
+      "Active Directory": 0.009644333047676609,
+      "Computer-Services": 0.052368340429595615
+    },
+    "log_scores": {
+      "Support general": -8.322098731994629,
+      "Fileservice": -12.260698318481445,
+      "O365": -13.054945945739746,
+      "EOL": -18.517118453979492,
+      "Software": -11.522140502929688,
+      "Active Directory": -12.832671165466309,
+      "Computer-Services": -11.140739440917969
+    },
+    "latency_ms": 520.9484090000842,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.6632680306073852,
+      "Fileservice": 0.1354257568565257,
+      "O365": 0.0068746869048762335,
+      "EOL": 0.0009332811954929903,
+      "Software": 0.0012207319518463108,
+      "Active Directory": 0.00843279998370758,
+      "Computer-Services": 0.1838447125001661
+    },
+    "base_latency_ms": 291.72149600026387
+  },
+  {
+    "text": "Hi, could you please create a Light (external) user account with email and basic system access for an external user? Thanks so much!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5997713853286086,
+      "Fileservice": 0.07170725140574052,
+      "O365": 0.16919313280616258,
+      "EOL": 0.0013594777015367402,
+      "Software": 0.09675739703880115,
+      "Active Directory": 0.051197328456538446,
+      "Computer-Services": 0.010014027262611911
+    },
+    "log_scores": {
+      "Support general": -8.694771766662598,
+      "Fileservice": -10.81872844696045,
+      "O365": -9.96027946472168,
+      "EOL": -14.784219741821289,
+      "Software": -10.519113540649414,
+      "Active Directory": -11.155632972717285,
+      "Computer-Services": -12.787333488464355
+    },
+    "latency_ms": 504.42216300007203,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.22774257527298356,
+      "Fileservice": 0.35545028142677804,
+      "O365": 0.02168930701042523,
+      "EOL": 0.005134994587167966,
+      "Software": 0.0013012479149674,
+      "Active Directory": 0.005340578238570775,
+      "Computer-Services": 0.38334101554910704
+    },
+    "base_latency_ms": 284.8926790002224
+  },
+  {
+    "text": "Hi, I need to get a new email address set up. Could someone help me with that?",
+    "truth": "Active Directory",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.0037417699931849738,
+      "Fileservice": 5.817854592886788e-05,
+      "O365": 0.9942461689267184,
+      "EOL": 0.00028376046812198034,
+      "Software": 0.00017591552958647766,
+      "Active Directory": 0.0014933524023978309,
+      "Computer-Services": 8.541340615898982e-07
+    },
+    "log_scores": {
+      "Support general": -13.774873733520508,
+      "Fileservice": -17.938671112060547,
+      "O365": -8.192447662353516,
+      "EOL": -16.35405731201172,
+      "Software": -16.832183837890625,
+      "Active Directory": -14.693408966064453,
+      "Computer-Services": -22.159854888916016
+    },
+    "latency_ms": 500.25908599991453,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.442838029244205,
+      "Fileservice": 0.32928392047904487,
+      "O365": 0.02215546143897533,
+      "EOL": 0.002129795254450043,
+      "Software": 0.004095371085476373,
+      "Active Directory": 0.010291030198869077,
+      "Computer-Services": 0.18920639229897926
+    },
+    "base_latency_ms": 295.4288649998489
+  },
+  {
+    "text": "I need some help getting a conference call set up. Could someone assist me with that when you get a chance?",
+    "truth": "O365",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.8692875291938065,
+      "Fileservice": 0.00400176078510005,
+      "O365": 0.017396621317657908,
+      "EOL": 5.615234376566062e-05,
+      "Software": 0.012673220580756903,
+      "Active Directory": 0.014550344404998838,
+      "Computer-Services": 0.0820343713739142
+    },
+    "log_scores": {
+      "Support general": -8.318345069885254,
+      "Fileservice": -13.699284553527832,
+      "O365": -12.229743003845215,
+      "EOL": -17.96570587158203,
+      "Software": -12.546527862548828,
+      "Active Directory": -12.408404350280762,
+      "Computer-Services": -10.67888069152832
+    },
+    "latency_ms": 489.13786499997514,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.40874148236382585,
+      "Fileservice": 0.25715823086129225,
+      "O365": 0.01758842974888392,
+      "EOL": 0.0005895879492790004,
+      "Software": 0.00035371818773116464,
+      "Active Directory": 0.00840153589283996,
+      "Computer-Services": 0.3071670149961478
+    },
+    "base_latency_ms": 283.1989009996505
+  },
+  {
+    "text": "Hi, I need to request that [NAME]'s user account and all associated access be cancelled. Please let me know once that's been taken care of.",
+    "truth": "Active Directory",
+    "prediction": "Active Directory",
+    "scores": {
+      "Support general": 0.1016163519836683,
+      "Fileservice": 0.0138307328508692,
+      "O365": 0.013974174347860966,
+      "EOL": 0.00814390750739314,
+      "Software": 0.029565473975889055,
+      "Active Directory": 0.8224165228646823,
+      "Computer-Services": 0.0104528364696371
+    },
+    "log_scores": {
+      "Support general": -10.477866172790527,
+      "Fileservice": -12.472177505493164,
+      "O365": -12.461859703063965,
+      "EOL": -13.001800537109375,
+      "Software": -11.71246337890625,
+      "Active Directory": -8.386823654174805,
+      "Computer-Services": -12.752197265625
+    },
+    "latency_ms": 506.7969390001963,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.39744374625286844,
+      "Fileservice": 0.20499195471995882,
+      "O365": 0.019828891575454668,
+      "EOL": 0.004453659507464227,
+      "Software": 0.003628514988604294,
+      "Active Directory": 0.016614937223233775,
+      "Computer-Services": 0.35303829573241574
+    },
+    "base_latency_ms": 279.5905899997706
+  },
+  {
+    "text": "Hi, is it possible to have attachments automatically removed or stripped from emails that come in from external senders? I'd like to get that set up if we can.",
+    "truth": "O365",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5068984244938485,
+      "Fileservice": 0.234603813703963,
+      "O365": 0.1423457106964769,
+      "EOL": 0.007019649969805877,
+      "Software": 0.08387879496954552,
+      "Active Directory": 0.017984876097135193,
+      "Computer-Services": 0.0072687300692250885
+    },
+    "log_scores": {
+      "Support general": -8.855713844299316,
+      "Fileservice": -9.626126289367676,
+      "O365": -10.125765800476074,
+      "EOL": -13.135311126708984,
+      "Software": -10.654651641845703,
+      "Active Directory": -12.194493293762207,
+      "Computer-Services": -13.100442886352539
+    },
+    "latency_ms": 502.0590730000549,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.40235486007876425,
+      "Fileservice": 0.20621324084028525,
+      "O365": 0.018353329007748286,
+      "EOL": 0.004619466004680437,
+      "Software": 0.00651895347554704,
+      "Active Directory": 0.036501693584167466,
+      "Computer-Services": 0.32543845700880736
+    },
+    "base_latency_ms": 280.8883190000415
+  },
+  {
+    "text": "Hi, I'm having a problem with my computer \u2014 it's not turning on at all. I press the power button and nothing happens. Can someone come take a look as soon as possible?",
+    "truth": "Support general",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.08796548653696194,
+      "Fileservice": 0.0003986359323413595,
+      "O365": 0.00010306194310226876,
+      "EOL": 5.007100507293448e-06,
+      "Software": 0.00585804634210281,
+      "Active Directory": 0.006821125499760699,
+      "Computer-Services": 0.8988486366452236
+    },
+    "log_scores": {
+      "Support general": -10.62058162689209,
+      "Fileservice": -16.01723289489746,
+      "O365": -17.369951248168945,
+      "EOL": -20.394424438476562,
+      "Software": -13.329710006713867,
+      "Active Directory": -13.177501678466797,
+      "Computer-Services": -8.296411514282227
+    },
+    "latency_ms": 602.0079489999262,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.3419571668110394,
+      "Fileservice": 0.1470043919459129,
+      "O365": 0.007624679970101199,
+      "EOL": 0.0004838263412578833,
+      "Software": 0.00035619907578098644,
+      "Active Directory": 0.01167553760165721,
+      "Computer-Services": 0.49089819825425035
+    },
+    "base_latency_ms": 358.12949299997854
+  },
+  {
+    "text": "Hi, could you please set up a Light (external) user account for someone who needs email access and basic system access? Thanks in advance!",
+    "truth": "Support general",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.14497448729177756,
+      "Fileservice": 0.021791960273951905,
+      "O365": 0.7316125927416417,
+      "EOL": 0.0028240278582260313,
+      "Software": 0.02251553253689511,
+      "Active Directory": 0.07428337138174175,
+      "Computer-Services": 0.0019980279157659543
+    },
+    "log_scores": {
+      "Support general": -10.129011154174805,
+      "Fileservice": -12.024027824401855,
+      "O365": -8.5103178024292,
+      "EOL": -14.067404747009277,
+      "Software": -11.991363525390625,
+      "Active Directory": -10.79768180847168,
+      "Computer-Services": -14.413408279418945
+    },
+    "latency_ms": 626.609993999864,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2566617920730534,
+      "Fileservice": 0.3231308263551959,
+      "O365": 0.021424483681243778,
+      "EOL": 0.002358103943006845,
+      "Software": 0.0004315240694781665,
+      "Active Directory": 0.004159469576489688,
+      "Computer-Services": 0.3918338003015322
+    },
+    "base_latency_ms": 354.08291900012046
+  },
+  {
+    "text": "Hi, could you please create a Basis User account for [USERNAME]? Let me know if you need any additional information to get this set up.",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5122302910933816,
+      "Fileservice": 0.09965964949542554,
+      "O365": 0.041758781456945136,
+      "EOL": 0.0004909067391130327,
+      "Software": 0.20937136616586266,
+      "Active Directory": 0.12930069580725556,
+      "Computer-Services": 0.007188309242016432
+    },
+    "log_scores": {
+      "Support general": -8.875330924987793,
+      "Fileservice": -10.512344360351562,
+      "O365": -11.382195472717285,
+      "EOL": -15.825606346130371,
+      "Software": -9.76999568939209,
+      "Active Directory": -10.251964569091797,
+      "Computer-Services": -13.14164924621582
+    },
+    "latency_ms": 722.0355449999261,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2694589943572489,
+      "Fileservice": 0.22744408528375007,
+      "O365": 0.010933006425656,
+      "EOL": 0.0011492092261636193,
+      "Software": 0.0002554508228454826,
+      "Active Directory": 0.0012819255016059937,
+      "Computer-Services": 0.4894773283827299
+    },
+    "base_latency_ms": 301.6152160003003
+  },
+  {
+    "text": "Hey, could you please grant me read/write access to J:/Scan? I need to be able to save files there but I'm getting a permissions error when I try.",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.014390152119926837,
+      "Fileservice": 0.9787697283437097,
+      "O365": 0.0012265234573702413,
+      "EOL": 2.340824073137868e-05,
+      "Software": 0.004359710103606318,
+      "Active Directory": 0.0008168841621657485,
+      "Computer-Services": 0.00041359357248977533
+    },
+    "log_scores": {
+      "Support general": -12.415822982788086,
+      "Fileservice": -8.196070671081543,
+      "O365": -14.878183364868164,
+      "EOL": -18.837034225463867,
+      "Software": -13.60996150970459,
+      "Active Directory": -15.284625053405762,
+      "Computer-Services": -15.965238571166992
+    },
+    "latency_ms": 497.50963300039075,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2863886533384022,
+      "Fileservice": 0.23056084427675114,
+      "O365": 0.023602561592555502,
+      "EOL": 0.004466453345147123,
+      "Software": 0.0029447558266025363,
+      "Active Directory": 0.009723474739866829,
+      "Computer-Services": 0.4423132568806748
+    },
+    "base_latency_ms": 294.6640469999693
+  },
+  {
+    "text": "I keep running into an error \u2014 [NAME] \u2014 whenever I try to access Neoagro. Not sure what's causing it, but I can't get in. Can you help?",
+    "truth": "Software",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.2623588281776983,
+      "Fileservice": 0.015185966539817271,
+      "O365": 0.1629085152194598,
+      "EOL": 0.012466215173804217,
+      "Software": 0.43330470959100387,
+      "Active Directory": 0.09921759184228146,
+      "Computer-Services": 0.014558173455935084
+    },
+    "log_scores": {
+      "Support general": -9.530987739562988,
+      "Fileservice": -12.380329132080078,
+      "O365": -10.007512092590332,
+      "EOL": -12.577678680419922,
+      "Software": -9.02925968170166,
+      "Active Directory": -10.503385543823242,
+      "Computer-Services": -12.422548294067383
+    },
+    "latency_ms": 493.1687480002438,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.4106517619504872,
+      "Fileservice": 0.22865151302335945,
+      "O365": 0.03273300303174341,
+      "EOL": 0.004797997996512185,
+      "Software": 0.0017691091611758856,
+      "Active Directory": 0.030953353792214904,
+      "Computer-Services": 0.29044326104450696
+    },
+    "base_latency_ms": 293.16725499984386
+  },
+  {
+    "text": "Hi, could you please remove my access to a shared mailbox? I no longer need it and would like it taken off my account. Thanks!",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.012724775962598012,
+      "Fileservice": 0.0013166802025895601,
+      "O365": 0.9690586326698348,
+      "EOL": 0.0006660950052722453,
+      "Software": 0.0005171696771800172,
+      "Active Directory": 0.0156893573148075,
+      "Computer-Services": 2.728916771791096e-05
+    },
+    "log_scores": {
+      "Support general": -12.539217948913574,
+      "Fileservice": -14.807655334472656,
+      "O365": -8.206443786621094,
+      "EOL": -15.489091873168945,
+      "Software": -15.74215316772461,
+      "Active Directory": -12.32978630065918,
+      "Computer-Services": -18.68403434753418
+    },
+    "latency_ms": 491.48483999988457,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.2721972142918347,
+      "Fileservice": 0.3935705192851577,
+      "O365": 0.023708620658683902,
+      "EOL": 0.0016391367257833195,
+      "Software": 0.0006654454849374179,
+      "Active Directory": 0.008600740641487673,
+      "Computer-Services": 0.29961832291211543
+    },
+    "base_latency_ms": 289.1765330000453
+  },
+  {
+    "text": "Hey, I'm having an issue with the BlackBerry Work app on my phone \u2014 can someone take a look and help me get it working again?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.7420352357548788,
+      "Fileservice": 0.014975877211287694,
+      "O365": 0.059156622560254064,
+      "EOL": 0.00018168276208896776,
+      "Software": 0.16331595643567465,
+      "Active Directory": 0.014409469223101861,
+      "Computer-Services": 0.005925156052713847
+    },
+    "log_scores": {
+      "Support general": -8.480335235595703,
+      "Fileservice": -12.383291244506836,
+      "O365": -11.009543418884277,
+      "EOL": -16.795225143432617,
+      "Software": -9.99404525756836,
+      "Active Directory": -12.421846389770508,
+      "Computer-Services": -13.310524940490723
+    },
+    "latency_ms": 558.723554000153,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.5301556686609536,
+      "Fileservice": 0.226999096655563,
+      "O365": 0.010817598451502666,
+      "EOL": 0.0007213166072354418,
+      "Software": 0.0010077068308451717,
+      "Active Directory": 0.014782097233064251,
+      "Computer-Services": 0.21551651556083587
+    },
+    "base_latency_ms": 281.34128000010605
+  },
+  {
+    "text": "I'm having trouble printing \u2014 every time I try to print something nothing happens. I'm not sure if it's the printer or my computer but I can't get anything to come out. Can someone help?",
+    "truth": "Computer-Services",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.43960670056657,
+      "Fileservice": 0.03515245556613316,
+      "O365": 0.001992669595101827,
+      "EOL": 1.2216729416203935e-05,
+      "Software": 0.02370739271616509,
+      "Active Directory": 0.01061879248487147,
+      "Computer-Services": 0.4889097723417423
+    },
+    "log_scores": {
+      "Support general": -9.005985260009766,
+      "Fileservice": -11.532171249389648,
+      "O365": -14.402390480041504,
+      "EOL": -19.496814727783203,
+      "Software": -11.926078796386719,
+      "Active Directory": -12.729240417480469,
+      "Computer-Services": -8.899687767028809
+    },
+    "latency_ms": 508.6748720000287,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.4721308463424623,
+      "Fileservice": 0.21218532335171839,
+      "O365": 0.0038308629646925507,
+      "EOL": 0.00074956993723604,
+      "Software": 0.0008937105601427059,
+      "Active Directory": 0.0169616283272064,
+      "Computer-Services": 0.2932480585165416
+    },
+    "base_latency_ms": 280.83670200021515
+  },
+  {
+    "text": "[SERVER] is being taken offline and needs to be fully decommissioned. Can you remove it from Nexthink, sort out any remaining IP reservations, and let the network team know to remove the firewall rules?",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.09799850849882082,
+      "Fileservice": 0.0018917955733310512,
+      "O365": 0.006728883078776313,
+      "EOL": 0.8125706356569639,
+      "Software": 0.018316765566752363,
+      "Active Directory": 0.02068753579909538,
+      "Computer-Services": 0.04180587582626019
+    },
+    "log_scores": {
+      "Support general": -10.522102355957031,
+      "Fileservice": -14.469528198242188,
+      "O365": -13.200645446777344,
+      "EOL": -8.406851768493652,
+      "Software": -12.199237823486328,
+      "Active Directory": -12.077523231506348,
+      "Computer-Services": -11.374017715454102
+    },
+    "latency_ms": 500.1414139996996,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.29436490767710094,
+      "Fileservice": 0.12606645183432097,
+      "O365": 0.04267301473585315,
+      "EOL": 0.0008148571749750036,
+      "Software": 0.0010304847287619086,
+      "Active Directory": 0.012547267010371338,
+      "Computer-Services": 0.5225030168386167
+    },
+    "base_latency_ms": 290.8778389996769
+  },
+  {
+    "text": "Hi, this is being flagged by [COMPANY] at [LOCATION] \u2014 it looks like there's a vulnerable version of Office running on [SERVER] that needs to be addressed. Could someone look into getting this patched?",
+    "truth": "Support general",
+    "prediction": "Software",
+    "scores": {
+      "Support general": 0.0848467808863245,
+      "Fileservice": 0.007916810857948129,
+      "O365": 0.01770237556818454,
+      "EOL": 0.0031785288233823826,
+      "Software": 0.868759742148322,
+      "Active Directory": 0.012749509256136805,
+      "Computer-Services": 0.004846252459701688
+    },
+    "log_scores": {
+      "Support general": -10.654319763183594,
+      "Fileservice": -13.026178359985352,
+      "O365": -12.221467971801758,
+      "EOL": -13.938748359680176,
+      "Software": -8.328100204467773,
+      "Active Directory": -12.549674034118652,
+      "Computer-Services": -13.516961097717285
+    },
+    "latency_ms": 488.1243690001611,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.22809086283290353,
+      "Fileservice": 0.27737842452793837,
+      "O365": 0.026860898789716554,
+      "EOL": 0.003061641309406288,
+      "Software": 0.013211484150201305,
+      "Active Directory": 0.024207303735004362,
+      "Computer-Services": 0.4271893846548296
+    },
+    "base_latency_ms": 295.6777350000266
+  },
+  {
+    "text": "I keep getting a printing error whenever I try to send something to the printer. It just won't go through \u2014 can you help?",
+    "truth": "Computer-Services",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.4573208131711971,
+      "Fileservice": 0.0853734914345275,
+      "O365": 0.015875500024738618,
+      "EOL": 0.0001481405603576466,
+      "Software": 0.054906528567382415,
+      "Active Directory": 0.025207563785620307,
+      "Computer-Services": 0.36116796245617633
+    },
+    "log_scores": {
+      "Support general": -8.966617584228516,
+      "Fileservice": -10.644967079162598,
+      "O365": -12.327225685119629,
+      "EOL": -17.001596450805664,
+      "Software": -11.086370468139648,
+      "Active Directory": -11.864858627319336,
+      "Computer-Services": -9.202659606933594
+    },
+    "latency_ms": 493.05596300018806,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.21191211726428713,
+      "Fileservice": 0.34995091222362384,
+      "O365": 0.006051264503776582,
+      "EOL": 0.0012372717875590992,
+      "Software": 0.0012633556102403412,
+      "Active Directory": 0.026081237945932305,
+      "Computer-Services": 0.4035038406645807
+    },
+    "base_latency_ms": 283.39281299986396
+  },
+  {
+    "text": "Hi, Skype has stopped working on several of our computers here and I'm not sure what's going on. Could someone come take a look or let us know how to fix it?",
+    "truth": "O365",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.4040712840048829,
+      "Fileservice": 0.01559746007027758,
+      "O365": 0.38837926626711117,
+      "EOL": 0.00046684087963998417,
+      "Software": 0.10706802719285485,
+      "Active Directory": 0.05778051999765223,
+      "Computer-Services": 0.026636601587581202
+    },
+    "log_scores": {
+      "Support general": -9.090234756469727,
+      "Fileservice": -12.344717979431152,
+      "O365": -9.129843711853027,
+      "EOL": -15.853592872619629,
+      "Software": -10.41836166381836,
+      "Active Directory": -11.035174369812012,
+      "Computer-Services": -11.809539794921875
+    },
+    "latency_ms": 504.85242300010214,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.381919018958911,
+      "Fileservice": 0.2213366731848867,
+      "O365": 0.011218235171290225,
+      "EOL": 0.0013916009830804426,
+      "Software": 0.0033917530090251218,
+      "Active Directory": 0.022443414814058947,
+      "Computer-Services": 0.3582993038787475
+    },
+    "base_latency_ms": 283.7916359999326
+  },
+  {
+    "text": "Hi there! We need to decommission [SERVER] \u2014 please remove it from Nexthink, check if there are any IP reservations still assigned to it, and coordinate with the network team to get those firewall rules removed.",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.011322577126920046,
+      "Fileservice": 0.0001243068643745081,
+      "O365": 0.0004457594236794679,
+      "EOL": 0.9833914997043919,
+      "Software": 0.001277971980878035,
+      "Active Directory": 0.0026385713613801156,
+      "Computer-Services": 0.0007993135383758378
+    },
+    "log_scores": {
+      "Support general": -12.69293212890625,
+      "Fileservice": -17.20473289489746,
+      "O365": -15.927706718444824,
+      "EOL": -8.228723526000977,
+      "Software": -14.874456405639648,
+      "Active Directory": -14.149493217468262,
+      "Computer-Services": -15.343732833862305
+    },
+    "latency_ms": 507.26724300011483,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2708041723501172,
+      "Fileservice": 0.15385023240422316,
+      "O365": 0.028238389194564017,
+      "EOL": 0.0019469256213238406,
+      "Software": 0.0020291870954520417,
+      "Active Directory": 0.015155538014508778,
+      "Computer-Services": 0.5279755553198109
+    },
+    "base_latency_ms": 280.0627579999855
+  },
+  {
+    "text": "Hi, could you please set up a new Windows account for a new team member? They'll need email access through Exchange, Skype, and the standard file share access that everyone else has.",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.44001785793764525,
+      "Fileservice": 0.11776403415191146,
+      "O365": 0.045652820067198785,
+      "EOL": 0.0013122099952918441,
+      "Software": 0.11824265232625421,
+      "Active Directory": 0.2384127153752161,
+      "Computer-Services": 0.03859771014648234
+    },
+    "log_scores": {
+      "Support general": -9.015645980834961,
+      "Fileservice": -10.333778381347656,
+      "O365": -11.28139591217041,
+      "EOL": -14.830748558044434,
+      "Software": -10.32972240447998,
+      "Active Directory": -9.628458023071289,
+      "Computer-Services": -11.449268341064453
+    },
+    "latency_ms": 494.06546599993817,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.1940323592620706,
+      "Fileservice": 0.3292923877951182,
+      "O365": 0.006894524224549476,
+      "EOL": 0.0017174631327116219,
+      "Software": 0.0003378990420344648,
+      "Active Directory": 0.0023280750700119496,
+      "Computer-Services": 0.4653972914735036
+    },
+    "base_latency_ms": 294.68644100006713
+  },
+  {
+    "text": "Hello, could you give me read-only access to the J:/FAQ BTR_HR folder? I just need to look things up in there and won't need to edit anything. Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.03648285105419641,
+      "Fileservice": 0.9550844291201894,
+      "O365": 0.0020101595181525574,
+      "EOL": 2.06238501625028e-05,
+      "Software": 0.004314285529757666,
+      "Active Directory": 0.0016076706154966934,
+      "Computer-Services": 0.0004799803120448077
+    },
+    "log_scores": {
+      "Support general": -11.47983169555664,
+      "Fileservice": -8.214874267578125,
+      "O365": -14.378459930419922,
+      "EOL": -18.95798110961914,
+      "Software": -13.614742279052734,
+      "Active Directory": -14.601887702941895,
+      "Computer-Services": -15.810684204101562
+    },
+    "latency_ms": 488.3728689997042,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.2675544434126561,
+      "Fileservice": 0.42172020364324553,
+      "O365": 0.018251657459161654,
+      "EOL": 0.0021492493196462316,
+      "Software": 0.004413187575941753,
+      "Active Directory": 0.024723145226989342,
+      "Computer-Services": 0.2611881133623595
+    },
+    "base_latency_ms": 383.8764249999258
+  },
+  {
+    "text": "Hey, could you grant me read and write access to J:/\u00d6FZFOX/MOM-OSR? I need to be able to work with the files in that folder. Appreciate it!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.010530329715658312,
+      "Fileservice": 0.9831817016574963,
+      "O365": 0.002380974811847155,
+      "EOL": 2.280279419191928e-05,
+      "Software": 0.003210760637082888,
+      "Active Directory": 0.0005445858044537906,
+      "Computer-Services": 0.00012884457926962855
+    },
+    "log_scores": {
+      "Support general": -12.740758895874023,
+      "Fileservice": -8.204224586486816,
+      "O365": -14.227508544921875,
+      "EOL": -18.875890731811523,
+      "Software": -13.928510665893555,
+      "Active Directory": -15.70274829864502,
+      "Computer-Services": -17.144166946411133
+    },
+    "latency_ms": 636.3094369999089,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.25207308644218346,
+      "Fileservice": 0.34997749994954286,
+      "O365": 0.05845298277720068,
+      "EOL": 0.002805534279277169,
+      "Software": 0.007233343010943683,
+      "Active Directory": 0.02127697471828911,
+      "Computer-Services": 0.30818057882256306
+    },
+    "base_latency_ms": 364.67050500004916
+  },
+  {
+    "text": "Hi, I've noticed that some folders I was expecting to see on my J: drive are missing \u2014 they're just not showing up anymore. Could you take a look and see what happened? I need access to them for my work.",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.07606040589552457,
+      "Fileservice": 0.9054739038353383,
+      "O365": 0.00209628513137064,
+      "EOL": 1.985273619946274e-05,
+      "Software": 0.005589677792149477,
+      "Active Directory": 0.002582158542748221,
+      "Computer-Services": 0.008177716066669293
+    },
+    "log_scores": {
+      "Support general": -10.755085945129395,
+      "Fileservice": -8.278155326843262,
+      "O365": -14.346446990966797,
+      "EOL": -19.006027221679688,
+      "Software": -13.365692138671875,
+      "Active Directory": -14.137988090515137,
+      "Computer-Services": -12.985200881958008
+    },
+    "latency_ms": 644.4465419999688,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.26205926271892427,
+      "Fileservice": 0.25057146373203765,
+      "O365": 0.012921551800001074,
+      "EOL": 0.0005754004662470969,
+      "Software": 0.000363362501596426,
+      "Active Directory": 0.013221696701115648,
+      "Computer-Services": 0.46028726208007786
+    },
+    "base_latency_ms": 408.38115700034905
+  },
+  {
+    "text": "Hi there, could someone help me get a printer installed on my computer? I'm not able to add it on my own and I need it set up to get my work done.",
+    "truth": "Computer-Services",
+    "prediction": "Computer-Services",
+    "scores": {
+      "Support general": 0.09362401586087016,
+      "Fileservice": 0.029344885804340807,
+      "O365": 0.00024606832871881254,
+      "EOL": 4.526497558362749e-06,
+      "Software": 0.012041658335208602,
+      "Active Directory": 0.004318660571362963,
+      "Computer-Services": 0.8604201846019403
+    },
+    "log_scores": {
+      "Support general": -10.550958633422852,
+      "Fileservice": -11.711127281188965,
+      "O365": -16.49239158630371,
+      "EOL": -20.488052368164062,
+      "Software": -12.601873397827148,
+      "Active Directory": -13.627300262451172,
+      "Computer-Services": -8.33282470703125
+    },
+    "latency_ms": 570.8399239997561,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.24678354644701384,
+      "Fileservice": 0.2637394651071232,
+      "O365": 0.0066097704791900054,
+      "EOL": 0.0004939131338974669,
+      "Software": 0.0007110056770836965,
+      "Active Directory": 0.012436535414443697,
+      "Computer-Services": 0.469225763741248
+    },
+    "base_latency_ms": 301.7273489999752
+  },
+  {
+    "text": "Hello, could you please create a light external user account for someone outside our organization? They just need basic email access and standard system access. Thank you!",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5228601492391821,
+      "Fileservice": 0.09803146432204708,
+      "O365": 0.1958169240742385,
+      "EOL": 0.004631051518599595,
+      "Software": 0.07039090398957086,
+      "Active Directory": 0.097702465064333,
+      "Computer-Services": 0.010567041792028916
+    },
+    "log_scores": {
+      "Support general": -8.830914497375488,
+      "Fileservice": -10.504940032958984,
+      "O365": -9.813048362731934,
+      "EOL": -13.55744457244873,
+      "Software": -10.836164474487305,
+      "Active Directory": -10.508301734924316,
+      "Computer-Services": -12.732488632202148
+    },
+    "latency_ms": 488.98713700009466,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.261591279465304,
+      "Fileservice": 0.3543014262381753,
+      "O365": 0.03420888277251107,
+      "EOL": 0.0031578464063383984,
+      "Software": 0.0012263470910433344,
+      "Active Directory": 0.007210701504669043,
+      "Computer-Services": 0.3383035165219589
+    },
+    "base_latency_ms": 287.4441690000822
+  },
+  {
+    "text": "Hey, I need read/write access to a few folders on the J: drive \u2014 specifically J:/INS-ZR, J:/INS-ZRMO, J:/INS-ZRRP, and J:/ZR_MAS. Could you set that up for me please?",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.03676673421871392,
+      "Fileservice": 0.9512027616557788,
+      "O365": 0.001480010279979817,
+      "EOL": 9.75638805381476e-06,
+      "Software": 0.005756799440912856,
+      "Active Directory": 0.0021040443979816023,
+      "Computer-Services": 0.002679893618579245
+    },
+    "log_scores": {
+      "Support general": -11.483369827270508,
+      "Fileservice": -8.230236053466797,
+      "O365": -14.695914268493652,
+      "EOL": -19.717796325683594,
+      "Software": -13.337581634521484,
+      "Active Directory": -14.344101905822754,
+      "Computer-Services": -14.10218620300293
+    },
+    "latency_ms": 550.3429629998209,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2162322366855624,
+      "Fileservice": 0.3349990373191389,
+      "O365": 0.00928593654318569,
+      "EOL": 0.0021555915534856984,
+      "Software": 0.0015208977250584215,
+      "Active Directory": 0.01012675078004625,
+      "Computer-Services": 0.4256795493935226
+    },
+    "base_latency_ms": 303.93611699992107
+  },
+  {
+    "text": "Hi, I need some help with Skype for Business at [LOCATION] \u2014 could someone assist?",
+    "truth": "O365",
+    "prediction": "O365",
+    "scores": {
+      "Support general": 0.04238428240134416,
+      "Fileservice": 0.0007918977205055029,
+      "O365": 0.929424171177205,
+      "EOL": 0.0001863950827852416,
+      "Software": 0.003815625896801243,
+      "Active Directory": 0.022668764259732434,
+      "Computer-Services": 0.0007288634616264611
+    },
+    "log_scores": {
+      "Support general": -11.349126815795898,
+      "Fileservice": -15.329227447509766,
+      "O365": -8.26133918762207,
+      "EOL": -16.77579116821289,
+      "Software": -13.756799697875977,
+      "Active Directory": -11.974916458129883,
+      "Computer-Services": -15.4121732711792
+    },
+    "latency_ms": 519.2691599995669,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.4103033309949081,
+      "Fileservice": 0.32231194214537856,
+      "O365": 0.02197587607051,
+      "EOL": 0.0015100492556274897,
+      "Software": 0.0017923969175551112,
+      "Active Directory": 0.020105630911298543,
+      "Computer-Services": 0.22200077370472215
+    },
+    "base_latency_ms": 304.9667479999698
+  },
+  {
+    "text": "Hi, could you please grant me read/write access to the J:/LSB Deutschland folder on the network drive? I need to be able to work with the files in there. Thanks in advance!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.009289201636456587,
+      "Fileservice": 0.9881601687064656,
+      "O365": 0.0007829729131021272,
+      "EOL": 9.136088648819942e-06,
+      "Software": 0.0010327134010805505,
+      "Active Directory": 0.0003900741972417895,
+      "Computer-Services": 0.00033573305700451505
+    },
+    "log_scores": {
+      "Support general": -12.865501403808594,
+      "Fileservice": -8.198509216308594,
+      "O365": -15.339011192321777,
+      "EOL": -19.78987693786621,
+      "Software": -15.062164306640625,
+      "Active Directory": -16.0357723236084,
+      "Computer-Services": -16.185792922973633
+    },
+    "latency_ms": 514.0563370000564,
+    "base_prediction": "Fileservice",
+    "base_scores": {
+      "Support general": 0.23041591651298987,
+      "Fileservice": 0.3851071641121372,
+      "O365": 0.019644107026417088,
+      "EOL": 0.0018044221353370241,
+      "Software": 0.002618317560020362,
+      "Active Directory": 0.015421100937436724,
+      "Computer-Services": 0.3449889717156617
+    },
+    "base_latency_ms": 286.29301400042095
+  },
+  {
+    "text": "Hey, we're decommissioning [SERVER] and need the Nexthink entry removed, any IP reservations reviewed, and the network team looped in to remove the firewall rules. Can you take care of that?",
+    "truth": "EOL",
+    "prediction": "EOL",
+    "scores": {
+      "Support general": 0.044790605218787194,
+      "Fileservice": 0.0007060542557984187,
+      "O365": 0.0008887445793946642,
+      "EOL": 0.9364843798155066,
+      "Software": 0.006817084995465195,
+      "Active Directory": 0.008190486177033244,
+      "Computer-Services": 0.0021226449580145604
+    },
+    "log_scores": {
+      "Support general": -11.307207107543945,
+      "Fileservice": -15.457268714904785,
+      "O365": -15.227150917053223,
+      "EOL": -8.267072677612305,
+      "Software": -13.189773559570312,
+      "Active Directory": -13.006232261657715,
+      "Computer-Services": -14.356542587280273
+    },
+    "latency_ms": 496.3833669999076,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.4417998285845204,
+      "Fileservice": 0.11475157705002303,
+      "O365": 0.04414980323825465,
+      "EOL": 0.002069211217655884,
+      "Software": 0.0024238547899906914,
+      "Active Directory": 0.012119852220200107,
+      "Computer-Services": 0.38268587289935524
+    },
+    "base_latency_ms": 297.3001889999978
+  },
+  {
+    "text": "Hi, I'm having trouble accessing the Itau bank website \u2014 it just won't load for me. Can you help me figure out what's going on?",
+    "truth": "Support general",
+    "prediction": "Support general",
+    "scores": {
+      "Support general": 0.5134159255973807,
+      "Fileservice": 0.013199368739899424,
+      "O365": 0.35723929545983757,
+      "EOL": 0.0027232904490160745,
+      "Software": 0.08936290174920522,
+      "Active Directory": 0.02098230616549841,
+      "Computer-Services": 0.003076911839162546
+    },
+    "log_scores": {
+      "Support general": -8.852686882019043,
+      "Fileservice": -12.513604164123535,
+      "O365": -9.215367317199707,
+      "EOL": -14.09193229675293,
+      "Software": -10.601067543029785,
+      "Active Directory": -12.050093650817871,
+      "Computer-Services": -13.969846725463867
+    },
+    "latency_ms": 507.5914029998785,
+    "base_prediction": "Support general",
+    "base_scores": {
+      "Support general": 0.6000676617488726,
+      "Fileservice": 0.1963760312880811,
+      "O365": 0.010906840222107484,
+      "EOL": 0.0015481349732081517,
+      "Software": 0.0020703062904384125,
+      "Active Directory": 0.01424542938647388,
+      "Computer-Services": 0.17478559609081837
+    },
+    "base_latency_ms": 286.03845599991473
+  },
+  {
+    "text": "Hey, I need read/write access to two folders on the J: drive \u2014 J:/[COMPANY] SB International and J:/ALS coordination. Could you sort that out for me? Thanks!",
+    "truth": "Fileservice",
+    "prediction": "Fileservice",
+    "scores": {
+      "Support general": 0.12042509040801441,
+      "Fileservice": 0.826679932276732,
+      "O365": 0.004716820471379498,
+      "EOL": 7.867348308393478e-05,
+      "Software": 0.027230440257728278,
+      "Active Directory": 0.009129331017701742,
+      "Computer-Services": 0.01173971208536019
+    },
+    "log_scores": {
+      "Support general": -10.299396514892578,
+      "Fileservice": -8.373006820678711,
+      "O365": -13.539289474487305,
+      "EOL": -17.63287353515625,
+      "Software": -11.786088943481445,
+      "Active Directory": -12.878931999206543,
+      "Computer-Services": -12.627447128295898
+    },
+    "latency_ms": 515.3181499999846,
+    "base_prediction": "Computer-Services",
+    "base_scores": {
+      "Support general": 0.2665476536642593,
+      "Fileservice": 0.3023075044851686,
+      "O365": 0.033620680156642324,
+      "EOL": 0.0016718426099251466,
+      "Software": 0.0034927299667114413,
+      "Active Directory": 0.017331878902788568,
+      "Computer-Services": 0.3750277102145046
+    },
+    "base_latency_ms": 284.7781840000607
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "tickets": [
+    {
+      "id": "T0001",
+      "text": "Please install the approved Adobe Acrobat application on my laptop.",
+      "timestamp": "2026-11-09T01:00:00.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.06375793597384695,
+        "Fileservice": 0.06371161992364203,
+        "O365": 0.00270752026314559,
+        "EOL": 5.287152354102382e-05,
+        "Software": 0.8615345373969809,
+        "Active Directory": 0.0037350169381758164,
+        "Computer-Services": 0.004500497980667584
+      },
+      "predicted_queue": "Software",
+      "top_score": 0.8615345373969809,
+      "margin": 0.797776601423134,
+      "status": "needs_review",
+      "reason": "Top candidate score is below the review threshold.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -10.939176559448242,
+        "Fileservice": -10.939903259277344,
+        "O365": -14.098237037658691,
+        "EOL": -18.034160614013672,
+        "Software": -8.335555076599121,
+        "Active Directory": -13.776517868041992,
+        "Computer-Services": -13.590082168579102
+      },
+      "latency_ms": 688.7188169998808,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": "Software"
+    },
+    {
+      "id": "T0002",
+      "text": "I cannot access the shared folder through Teams. Please investigate.",
+      "timestamp": "2026-11-09T01:00:30.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.2881272913624103,
+        "Fileservice": 0.36744725345109286,
+        "O365": 0.15727270925076128,
+        "EOL": 0.0019159398436619055,
+        "Software": 0.03177321677498057,
+        "Active Directory": 0.06666284241479103,
+        "Computer-Services": 0.08680074690230205
+      },
+      "predicted_queue": "Fileservice",
+      "top_score": 0.36744725345109286,
+      "margin": 0.07931996208868258,
+      "status": "needs_review",
+      "reason": "Top candidate score is below the review threshold.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -9.41989517211914,
+        "Fileservice": -9.176717758178711,
+        "O365": -10.02531623840332,
+        "EOL": -14.433089256286621,
+        "Software": -11.624673843383789,
+        "Active Directory": -10.883649826049805,
+        "Computer-Services": -10.619682312011719
+      },
+      "latency_ms": 654.0621160002047,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": null
+    },
+    {
+      "id": "T0003",
+      "text": "Outlook email sending failed for our team this morning.",
+      "timestamp": "2026-11-09T01:01:00.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.019458637311413004,
+        "Fileservice": 0.00018056190438557002,
+        "O365": 0.9663963240739645,
+        "EOL": 0.00021919868506597496,
+        "Software": 0.0036126987380642995,
+        "Active Directory": 0.010121228434889959,
+        "Computer-Services": 1.1350852216794451e-05
+      },
+      "predicted_queue": "O365",
+      "top_score": 0.9663963240739645,
+      "margin": 0.9469376867625515,
+      "status": "automatic",
+      "reason": "Meets the experimental score and margin thresholds.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -12.119866371154785,
+        "Fileservice": -16.79983901977539,
+        "O365": -8.214583396911621,
+        "EOL": -16.605934143066406,
+        "Software": -13.803702354431152,
+        "Active Directory": -12.77352237701416,
+        "Computer-Services": -19.566619873046875
+      },
+      "latency_ms": 657.4595669999326,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": "O365"
+    },
+    {
+      "id": "T0004",
+      "text": "Our team email sending failed in Outlook this morning.",
+      "timestamp": "2026-11-09T01:01:30.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.12900403390589693,
+        "Fileservice": 0.0011720538417385688,
+        "O365": 0.8209850930574468,
+        "EOL": 0.0008753691236198971,
+        "Software": 0.010204800809124717,
+        "Active Directory": 0.037601615144904066,
+        "Computer-Services": 0.00015703411726885951
+      },
+      "predicted_queue": "O365",
+      "top_score": 0.8209850930574468,
+      "margin": 0.6919810591515498,
+      "status": "needs_review",
+      "reason": "Top candidate score is below the review threshold.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -10.228742599487305,
+        "Fileservice": -14.929828643798828,
+        "O365": -8.378081321716309,
+        "EOL": -15.221695899963379,
+        "Software": -12.765727996826172,
+        "Active Directory": -11.461539268493652,
+        "Computer-Services": -16.939878463745117
+      },
+      "latency_ms": 667.4211590002415,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": "O365"
+    },
+    {
+      "id": "T0005",
+      "text": "Outlook email sending has failed again for our team this morning.",
+      "timestamp": "2026-11-09T01:02:00.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.01534666490790745,
+        "Fileservice": 0.0002666739763038089,
+        "O365": 0.9719693164187311,
+        "EOL": 0.00014048630706644708,
+        "Software": 0.0037661847244192825,
+        "Active Directory": 0.008501656046778137,
+        "Computer-Services": 9.017618793805838e-06
+      },
+      "predicted_queue": "O365",
+      "top_score": 0.9719693164187311,
+      "margin": 0.9566226515108236,
+      "status": "automatic",
+      "reason": "Meets the experimental score and margin thresholds.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -12.351611137390137,
+        "Fileservice": -16.404237747192383,
+        "O365": -8.203185081481934,
+        "EOL": -17.045154571533203,
+        "Software": -13.756446838378906,
+        "Active Directory": -12.942248344421387,
+        "Computer-Services": -19.79108428955078
+      },
+      "latency_ms": 506.32836499971745,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": "O365"
+    },
+    {
+      "id": "T0006",
+      "text": "Please decommission the retired test server and remove it from monitoring.",
+      "timestamp": "2026-11-09T01:02:30.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.008059711689210543,
+        "Fileservice": 4.078884752451162e-05,
+        "O365": 0.000641016984853485,
+        "EOL": 0.9878940802832508,
+        "Software": 0.0012725879589452005,
+        "Active Directory": 0.0013132422072686533,
+        "Computer-Services": 0.0007785720289468321
+      },
+      "predicted_queue": "EOL",
+      "top_score": 0.9878940802832508,
+      "margin": 0.9798343685940403,
+      "status": "automatic",
+      "reason": "Meets the experimental score and margin thresholds.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -13.039960861206055,
+        "Fileservice": -18.32618522644043,
+        "O365": -15.571537971496582,
+        "EOL": -8.231263160705566,
+        "Software": -14.885786056518555,
+        "Active Directory": -14.854339599609375,
+        "Computer-Services": -15.377132415771484
+      },
+      "latency_ms": 500.6503159997919,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": "EOL"
+    },
+    {
+      "id": "T0007",
+      "text": "Please create an Active Directory account for the new employee.",
+      "timestamp": "2026-11-09T01:03:00.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.0012959785212568477,
+        "Fileservice": 1.4406648902620425e-05,
+        "O365": 3.916207887123498e-05,
+        "EOL": 1.4499494395775407e-05,
+        "Software": 0.000612714838538722,
+        "Active Directory": 0.9976088848662242,
+        "Computer-Services": 0.00041435355181049965
+      },
+      "predicted_queue": "Active Directory",
+      "top_score": 0.9976088848662242,
+      "margin": 0.9963129063449674,
+      "status": "automatic",
+      "reason": "Meets the experimental score and margin thresholds.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -14.862380027770996,
+        "Fileservice": -19.361711502075195,
+        "O365": -18.361692428588867,
+        "EOL": -19.355287551879883,
+        "Software": -15.611501693725586,
+        "Active Directory": -8.21628475189209,
+        "Computer-Services": -16.002681732177734
+      },
+      "latency_ms": 497.7192860001196,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": "Active Directory"
+    },
+    {
+      "id": "T0008",
+      "text": "The office printer has a persistent paper jam and needs repair.",
+      "timestamp": "2026-11-09T01:03:30.321582+00:00",
+      "source": "synthetic_replay",
+      "scores": {
+        "Support general": 0.170153098842721,
+        "Fileservice": 0.007625165114824543,
+        "O365": 0.0005502336795844291,
+        "EOL": 8.673131852192999e-06,
+        "Software": 0.0031071620885862045,
+        "Active Directory": 0.00561609382097088,
+        "Computer-Services": 0.8129395733214607
+      },
+      "predicted_queue": "Computer-Services",
+      "top_score": 0.8129395733214607,
+      "margin": 0.6427864744787397,
+      "status": "needs_review",
+      "reason": "Top candidate score is below the review threshold.",
+      "policy": {
+        "threshold": 0.9,
+        "min_margin": 0.2,
+        "auto_enabled": true,
+        "validated": false
+      },
+      "human_queue": null,
+      "log_scores": {
+        "Support general": -9.947500228881836,
+        "Fileservice": -13.05274486541748,
+        "O365": -15.681611061096191,
+        "EOL": -19.831724166870117,
+        "Software": -13.950489044189453,
+        "Active Directory": -13.358562469482422,
+        "Computer-Services": -8.38354206085205
+      },
+      "latency_ms": 481.3143310002488,
+      "score_method": "Sum of complete-label and EOS log likelihoods",
+      "calibrated": false,
+      "illustrative_expected_queue": "Computer-Services"
+    }
+  ],
+  "reviews": [],
+  "notice": "Experimental policy; synthetic replay is not benchmark evidence."
+}
