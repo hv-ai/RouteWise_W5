@@ -95,7 +95,7 @@ Human decisions are saved for later analysis. They do not automatically retrain 
 - `data/original_results/` — results from the assignment.
 - `data/development_results/` — scores, comparisons, and review records from the extension.
 - `tests/` — 29 checks for routing, review history, grouping, policy selection, and recorded replay.
-- `docs/DEMO_SCRIPT.md` — walkthrough notes.
+
 
 To run the local logic tests:
 
